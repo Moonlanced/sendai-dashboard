@@ -1,0 +1,34 @@
+name: Refresh data
+
+on:
+  schedule:
+    - cron: "17 3 5 * *"   # 5th of each month, 03:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Download reports, Excel versions and long-run series (fails if the city changes a file name)
+        run: python scripts/download.py --all
+      - name: Extract and validate (fails on any total mismatch)
+        run: python scripts/extract.py
+      - name: Long-run series since 1982 (fails if it disagrees with the reports)
+        run: python scripts/longrun.py
+      - name: Cross-check against the Excel versions (fails on any missing value)
+        run: python scripts/crosscheck_excel.py
+      - name: Commit if the data changed
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add data/processed
+          git diff --cached --quiet || git commit -m "data: monthly refresh"
+          git push
