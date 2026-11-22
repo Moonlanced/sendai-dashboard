@@ -1,0 +1,1131 @@
+file,check,passed,detail
+h1101.xlsx,births: wards sum == city,True,824 vs 824
+h1101.xlsx,deaths: wards sum == city,True,460 vs 460
+h1101.xlsx,population: wards sum == city,True,"998,188"
+h1102.xlsx,births: wards sum == city,True,839 vs 839
+h1102.xlsx,deaths: wards sum == city,True,641 vs 641
+h1102.xlsx,population: wards sum == city,True,"997,808"
+h1103.xlsx,births: wards sum == city,True,775 vs 775
+h1103.xlsx,deaths: wards sum == city,True,526 vs 526
+h1103.xlsx,population: wards sum == city,True,"997,334"
+h1104.xlsx,births: wards sum == city,True,870 vs 870
+h1104.xlsx,deaths: wards sum == city,True,515 vs 515
+h1104.xlsx,population: wards sum == city,True,"992,713"
+h1105.xlsx,births: wards sum == city,True,804 vs 804
+h1105.xlsx,deaths: wards sum == city,True,487 vs 487
+h1105.xlsx,population: wards sum == city,True,"999,298"
+h1106.xlsx,births: wards sum == city,True,867 vs 867
+h1106.xlsx,deaths: wards sum == city,True,427 vs 427
+h1106.xlsx,population: wards sum == city,True,"1,000,787"
+h1107.xlsx,births: wards sum == city,True,898 vs 898
+h1107.xlsx,deaths: wards sum == city,True,418 vs 418
+h1107.xlsx,population: wards sum == city,True,"1,001,404"
+h1108.xlsx,births: wards sum == city,True,815 vs 815
+h1108.xlsx,deaths: wards sum == city,True,401 vs 401
+h1108.xlsx,population: wards sum == city,True,"1,001,464"
+h1109.xlsx,births: wards sum == city,True,887 vs 887
+h1109.xlsx,deaths: wards sum == city,True,479 vs 479
+h1109.xlsx,population: wards sum == city,True,"1,002,506"
+h1110_2.xlsx,births: wards sum == city,True,838 vs 838
+h1110_2.xlsx,deaths: wards sum == city,True,413 vs 413
+h1110_2.xlsx,population: wards sum == city,True,"1,002,401"
+h1111.xlsx,births: wards sum == city,True,858 vs 858
+h1111.xlsx,deaths: wards sum == city,True,373 vs 373
+h1111.xlsx,population: wards sum == city,True,"1,002,985"
+h1112.xlsx,births: wards sum == city,True,847 vs 847
+h1112.xlsx,deaths: wards sum == city,True,459 vs 459
+h1112.xlsx,population: wards sum == city,True,"1,003,349"
+h1201_1.xlsx,births: wards sum == city,True,772 vs 772
+h1201_1.xlsx,deaths: wards sum == city,True,434 vs 434
+h1201_1.xlsx,population: wards sum == city,True,"1,003,513"
+h1202.xlsx,births: wards sum == city,True,917 vs 917
+h1202.xlsx,deaths: wards sum == city,True,520 vs 520
+h1202.xlsx,population: wards sum == city,True,"1,003,674"
+h1203.xlsx,births: wards sum == city,True,826 vs 826
+h1203.xlsx,deaths: wards sum == city,True,489 vs 489
+h1203.xlsx,population: wards sum == city,True,"1,003,774"
+h1204.xls,births: wards sum == city,True,840 vs 840
+h1204.xls,deaths: wards sum == city,True,526 vs 526
+h1204.xls,population: wards sum == city,True,"997,727"
+h1205.xls,births: wards sum == city,True,767 vs 767
+h1205.xls,deaths: wards sum == city,True,396 vs 396
+h1205.xls,population: wards sum == city,True,"1,004,764"
+h1206.xls,births: wards sum == city,True,852 vs 852
+h1206.xls,deaths: wards sum == city,True,442 vs 442
+h1206.xls,population: wards sum == city,True,"1,005,896"
+h1207.xls,births: wards sum == city,True,860 vs 860
+h1207.xls,deaths: wards sum == city,True,416 vs 416
+h1207.xls,population: wards sum == city,True,"1,006,291"
+h1208.xls,births: wards sum == city,True,811 vs 811
+h1208.xls,deaths: wards sum == city,True,410 vs 410
+h1208.xls,population: wards sum == city,True,"1,006,880"
+h1209.xls,births: wards sum == city,True,964 vs 964
+h1209.xls,deaths: wards sum == city,True,420 vs 420
+h1209.xls,population: wards sum == city,True,"1,007,891"
+h1210_1.xlsx,births: wards sum == city,True,885 vs 885
+h1210_1.xlsx,deaths: wards sum == city,True,419 vs 419
+h1210_1.xlsx,population: wards sum == city,True,"1,008,130"
+h1211.xls,births: wards sum == city,True,892 vs 892
+h1211.xls,deaths: wards sum == city,True,458 vs 458
+h1211.xls,population: wards sum == city,True,"1,008,861"
+h1212_1.xls,births: wards sum == city,True,849 vs 849
+h1212_1.xls,deaths: wards sum == city,True,462 vs 462
+h1212_1.xls,population: wards sum == city,True,"1,009,184"
+h1301.xls,births: wards sum == city,True,800 vs 800
+h1301.xls,deaths: wards sum == city,True,436 vs 436
+h1301.xls,population: wards sum == city,True,"1,009,570"
+h1302.xls,births: wards sum == city,True,877 vs 877
+h1302.xls,deaths: wards sum == city,True,551 vs 551
+h1302.xls,population: wards sum == city,True,"1,009,536"
+h1303.xls,births: wards sum == city,True,756 vs 756
+h1303.xls,deaths: wards sum == city,True,418 vs 418
+h1303.xls,population: wards sum == city,True,"1,009,464"
+h1304.xls,births: wards sum == city,True,863 vs 863
+h1304.xls,deaths: wards sum == city,True,448 vs 448
+h1304.xls,population: wards sum == city,True,"1,004,376"
+h1305.xls,births: wards sum == city,True,751 vs 751
+h1305.xls,deaths: wards sum == city,True,449 vs 449
+h1305.xls,population: wards sum == city,True,"1,011,449"
+h1306.xls,births: wards sum == city,True,921 vs 921
+h1306.xls,deaths: wards sum == city,True,513 vs 513
+h1306.xls,population: wards sum == city,True,"1,012,253"
+h1307.xls,births: wards sum == city,True,796 vs 796
+h1307.xls,deaths: wards sum == city,True,410 vs 410
+h1307.xls,population: wards sum == city,True,"1,012,652"
+h1308.xls,births: wards sum == city,True,867 vs 867
+h1308.xls,deaths: wards sum == city,True,439 vs 439
+h1308.xls,population: wards sum == city,True,"1,013,428"
+h1309.xls,births: wards sum == city,True,917 vs 917
+h1309.xls,deaths: wards sum == city,True,427 vs 427
+h1309.xls,population: wards sum == city,True,"1,014,376"
+h1310.xls,births: wards sum == city,True,860 vs 860
+h1310.xls,deaths: wards sum == city,True,405 vs 405
+h1310.xls,population: wards sum == city,True,"1,014,268"
+h1311.xls,births: wards sum == city,True,936 vs 936
+h1311.xls,deaths: wards sum == city,True,495 vs 495
+h1311.xls,population: wards sum == city,True,"1,015,431"
+h1312.xls,births: wards sum == city,True,845 vs 845
+h1312.xls,deaths: wards sum == city,True,465 vs 465
+h1312.xls,population: wards sum == city,True,"1,015,808"
+h1401_1.xls,births: wards sum == city,True,778 vs 778
+h1401_1.xls,deaths: wards sum == city,True,448 vs 448
+h1401_1.xls,population: wards sum == city,True,"1,015,986"
+h1402.xls,births: wards sum == city,True,813 vs 813
+h1402.xls,deaths: wards sum == city,True,529 vs 529
+h1402.xls,population: wards sum == city,True,"1,016,256"
+h1403.xls,births: wards sum == city,True,768 vs 768
+h1403.xls,deaths: wards sum == city,True,450 vs 450
+h1403.xls,population: wards sum == city,True,"1,016,175"
+h1404.xls,births: wards sum == city,True,782 vs 782
+h1404.xls,deaths: wards sum == city,True,487 vs 487
+h1404.xls,population: wards sum == city,True,"1,010,224"
+h1405.xls,births: wards sum == city,True,835 vs 835
+h1405.xls,deaths: wards sum == city,True,457 vs 457
+h1405.xls,population: wards sum == city,True,"1,017,229"
+h1406.xls,births: wards sum == city,True,934 vs 934
+h1406.xls,deaths: wards sum == city,True,458 vs 458
+h1406.xls,population: wards sum == city,True,"1,017,966"
+h1407.xls,births: wards sum == city,True,736 vs 736
+h1407.xls,deaths: wards sum == city,True,393 vs 393
+h1407.xls,population: wards sum == city,True,"1,018,150"
+h1408.xls,births: wards sum == city,True,870 vs 870
+h1408.xls,deaths: wards sum == city,True,497 vs 497
+h1408.xls,population: wards sum == city,True,"1,018,473"
+h1409.xls,births: wards sum == city,True,872 vs 872
+h1409.xls,deaths: wards sum == city,True,413 vs 413
+h1409.xls,population: wards sum == city,True,"1,018,832"
+h1410.xls,births: wards sum == city,True,894 vs 894
+h1410.xls,deaths: wards sum == city,True,374 vs 374
+h1410.xls,population: wards sum == city,True,"1,019,124"
+h1411.xls,births: wards sum == city,True,883 vs 883
+h1411.xls,deaths: wards sum == city,True,490 vs 490
+h1411.xls,population: wards sum == city,True,"1,019,578"
+h1412.xls,births: wards sum == city,True,787 vs 787
+h1412.xls,deaths: wards sum == city,True,531 vs 531
+h1412.xls,population: wards sum == city,True,"1,019,761"
+h1501.xls,births: wards sum == city,True,739 vs 739
+h1501.xls,deaths: wards sum == city,True,455 vs 455
+h1501.xls,population: wards sum == city,True,"1,019,869"
+h1502.xls,births: wards sum == city,True,866 vs 866
+h1502.xls,deaths: wards sum == city,True,579 vs 579
+h1502.xls,population: wards sum == city,True,"1,019,924"
+h1503.xls,births: wards sum == city,True,765 vs 765
+h1503.xls,deaths: wards sum == city,True,516 vs 516
+h1503.xls,population: wards sum == city,True,"1,019,761"
+h1504.xls,births: wards sum == city,True,745 vs 745
+h1504.xls,deaths: wards sum == city,True,466 vs 466
+h1504.xls,population: wards sum == city,True,"1,015,253"
+h1505.xls,births: wards sum == city,True,720 vs 720
+h1505.xls,deaths: wards sum == city,True,489 vs 489
+h1505.xls,population: wards sum == city,True,"1,020,676"
+h1506.xls,births: wards sum == city,True,936 vs 936
+h1506.xls,deaths: wards sum == city,True,531 vs 531
+h1506.xls,population: wards sum == city,True,"1,021,469"
+h1507.xls,births: wards sum == city,True,777 vs 777
+h1507.xls,deaths: wards sum == city,True,446 vs 446
+h1507.xls,population: wards sum == city,True,"1,021,837"
+h1508.xls,births: wards sum == city,True,842 vs 842
+h1508.xls,deaths: wards sum == city,True,524 vs 524
+h1508.xls,population: wards sum == city,True,"1,022,503"
+h1509.xls,births: wards sum == city,True,735 vs 735
+h1509.xls,deaths: wards sum == city,True,436 vs 436
+h1509.xls,population: wards sum == city,True,"1,022,884"
+h1510.xls,births: wards sum == city,True,871 vs 871
+h1510.xls,deaths: wards sum == city,True,440 vs 440
+h1510.xls,population: wards sum == city,True,"1,023,042"
+h1511.xls,births: wards sum == city,True,920 vs 920
+h1511.xls,deaths: wards sum == city,True,488 vs 488
+h1511.xls,population: wards sum == city,True,"1,023,585"
+h1512.xls,births: wards sum == city,True,746 vs 746
+h1512.xls,deaths: wards sum == city,True,442 vs 442
+h1512.xls,population: wards sum == city,True,"1,023,832"
+h1601.xls,births: wards sum == city,True,763 vs 763
+h1601.xls,deaths: wards sum == city,True,509 vs 509
+h1601.xls,population: wards sum == city,True,"1,023,672"
+h1602.xls,births: wards sum == city,True,855 vs 855
+h1602.xls,deaths: wards sum == city,True,656 vs 656
+h1602.xls,population: wards sum == city,True,"1,023,609"
+h1603.xls,births: wards sum == city,True,733 vs 733
+h1603.xls,deaths: wards sum == city,True,507 vs 507
+h1603.xls,population: wards sum == city,True,"1,023,480"
+h1604.xls,births: wards sum == city,True,804 vs 804
+h1604.xls,deaths: wards sum == city,True,513 vs 513
+h1604.xls,population: wards sum == city,True,"1,018,901"
+h1605.xls,births: wards sum == city,True,779 vs 779
+h1605.xls,deaths: wards sum == city,True,491 vs 491
+h1605.xls,population: wards sum == city,True,"1,023,616"
+h1606.xls,births: wards sum == city,True,736 vs 736
+h1606.xls,deaths: wards sum == city,True,429 vs 429
+h1606.xls,population: wards sum == city,True,"1,024,483"
+h1607.xls,births: wards sum == city,True,773 vs 773
+h1607.xls,deaths: wards sum == city,True,464 vs 464
+h1607.xls,population: wards sum == city,True,"1,024,830"
+h1608.xls,births: wards sum == city,True,770 vs 770
+h1608.xls,deaths: wards sum == city,True,426 vs 426
+h1608.xls,population: wards sum == city,True,"1,024,863"
+h1609.xls,births: wards sum == city,True,874 vs 874
+h1609.xls,deaths: wards sum == city,True,498 vs 498
+h1609.xls,population: wards sum == city,True,"1,025,519"
+h1610.xls,births: wards sum == city,True,866 vs 866
+h1610.xls,deaths: wards sum == city,True,423 vs 423
+h1610.xls,population: wards sum == city,True,"1,025,714"
+h1611.xls,births: wards sum == city,True,755 vs 755
+h1611.xls,deaths: wards sum == city,True,503 vs 503
+h1611.xls,population: wards sum == city,True,"1,025,723"
+h1612.xls,births: wards sum == city,True,794 vs 794
+h1612.xls,deaths: wards sum == city,True,567 vs 567
+h1612.xls,population: wards sum == city,True,"1,025,959"
+h1701.xls,births: wards sum == city,True,760 vs 760
+h1701.xls,deaths: wards sum == city,True,552 vs 552
+h1701.xls,population: wards sum == city,True,"1,025,647"
+h1702.xls,births: wards sum == city,True,753 vs 753
+h1702.xls,deaths: wards sum == city,True,576 vs 576
+h1702.xls,population: wards sum == city,True,"1,025,820"
+h1703.xls,births: wards sum == city,True,668 vs 668
+h1703.xls,deaths: wards sum == city,True,516 vs 516
+h1703.xls,population: wards sum == city,True,"1,025,608"
+h1704.xls,births: wards sum == city,True,743 vs 743
+h1704.xls,deaths: wards sum == city,True,670 vs 670
+h1704.xls,population: wards sum == city,True,"1,021,650"
+h1705.xls,births: wards sum == city,True,716 vs 716
+h1705.xls,deaths: wards sum == city,True,522 vs 522
+h1705.xls,population: wards sum == city,True,"1,026,221"
+h1706.xls,births: wards sum == city,True,812 vs 812
+h1706.xls,deaths: wards sum == city,True,586 vs 586
+h1706.xls,population: wards sum == city,True,"1,027,034"
+h1707.xls,births: wards sum == city,True,818 vs 818
+h1707.xls,deaths: wards sum == city,True,447 vs 447
+h1707.xls,population: wards sum == city,True,"1,027,458"
+h1708.xls,births: wards sum == city,True,760 vs 760
+h1708.xls,deaths: wards sum == city,True,454 vs 454
+h1708.xls,population: wards sum == city,True,"1,027,474"
+h1709.xls,births: wards sum == city,True,863 vs 863
+h1709.xls,deaths: wards sum == city,True,513 vs 513
+h1709.xls,population: wards sum == city,True,"1,028,214"
+h1710.xls,births: wards sum == city,True,743 vs 743
+h1710.xls,deaths: wards sum == city,True,475 vs 475
+h1710.xls,population: wards sum == city,True,"1,025,098"
+h1711.xls,births: wards sum == city,True,787 vs 787
+h1711.xls,deaths: wards sum == city,True,513 vs 513
+h1711.xls,population: wards sum == city,True,"1,025,680"
+h1712.xls,births: wards sum == city,True,735 vs 735
+h1712.xls,deaths: wards sum == city,True,520 vs 520
+h1712.xls,population: wards sum == city,True,"1,025,854"
+h1801.xls,births: wards sum == city,True,737 vs 737
+h1801.xls,deaths: wards sum == city,True,527 vs 527
+h1801.xls,population: wards sum == city,True,"1,025,907"
+h1802.xls,births: wards sum == city,True,771 vs 771
+h1802.xls,deaths: wards sum == city,True,691 vs 691
+h1802.xls,population: wards sum == city,True,"1,025,963"
+h1803.xls,births: wards sum == city,True,669 vs 669
+h1803.xls,deaths: wards sum == city,True,507 vs 507
+h1803.xls,population: wards sum == city,True,"1,025,723"
+h1804.xls,births: wards sum == city,True,796 vs 796
+h1804.xls,deaths: wards sum == city,True,584 vs 584
+h1804.xls,population: wards sum == city,True,"1,020,114"
+h1805.xls,births: wards sum == city,True,679 vs 679
+h1805.xls,deaths: wards sum == city,True,510 vs 510
+h1805.xls,population: wards sum == city,True,"1,025,973"
+h1806.xls,births: wards sum == city,True,887 vs 887
+h1806.xls,deaths: wards sum == city,True,546 vs 546
+h1806.xls,population: wards sum == city,True,"1,026,590"
+h1807.xls,births: wards sum == city,True,799 vs 799
+h1807.xls,deaths: wards sum == city,True,516 vs 516
+h1807.xls,population: wards sum == city,True,"1,026,540"
+h1808.xls,births: wards sum == city,True,794 vs 794
+h1808.xls,deaths: wards sum == city,True,455 vs 455
+h1808.xls,population: wards sum == city,True,"1,027,211"
+h1809.xls,births: wards sum == city,True,915 vs 915
+h1809.xls,deaths: wards sum == city,True,531 vs 531
+h1809.xls,population: wards sum == city,True,"1,027,890"
+h1810.xls,births: wards sum == city,True,751 vs 751
+h1810.xls,deaths: wards sum == city,True,485 vs 485
+h1810.xls,population: wards sum == city,True,"1,027,329"
+h1811.xls,births: wards sum == city,True,820 vs 820
+h1811.xls,deaths: wards sum == city,True,542 vs 542
+h1811.xls,population: wards sum == city,True,"1,027,909"
+h1812.xls,births: wards sum == city,True,806 vs 806
+h1812.xls,deaths: wards sum == city,True,574 vs 574
+h1812.xls,population: wards sum == city,True,"1,027,988"
+h1901.xls,births: wards sum == city,True,804 vs 804
+h1901.xls,deaths: wards sum == city,True,594 vs 594
+h1901.xls,population: wards sum == city,True,"1,028,196"
+h1902.xls,births: wards sum == city,True,788 vs 788
+h1902.xls,deaths: wards sum == city,True,640 vs 640
+h1902.xls,population: wards sum == city,True,"1,028,239"
+h1903.xls,births: wards sum == city,True,720 vs 720
+h1903.xls,deaths: wards sum == city,True,501 vs 501
+h1903.xls,population: wards sum == city,True,"1,027,933"
+h1904.xls,births: wards sum == city,True,778 vs 778
+h1904.xls,deaths: wards sum == city,True,618 vs 618
+h1904.xls,population: wards sum == city,True,"1,022,712"
+h1905.xls,births: wards sum == city,True,725 vs 725
+h1905.xls,deaths: wards sum == city,True,519 vs 519
+h1905.xls,population: wards sum == city,True,"1,027,879"
+h1906.xls,births: wards sum == city,True,873 vs 873
+h1906.xls,deaths: wards sum == city,True,611 vs 611
+h1906.xls,population: wards sum == city,True,"1,028,568"
+h1907.xls,births: wards sum == city,True,761 vs 761
+h1907.xls,deaths: wards sum == city,True,479 vs 479
+h1907.xls,population: wards sum == city,True,"1,028,413"
+h1908.xls,births: wards sum == city,True,831 vs 831
+h1908.xls,deaths: wards sum == city,True,497 vs 497
+h1908.xls,population: wards sum == city,True,"1,029,042"
+h1909.xls,births: wards sum == city,True,814 vs 814
+h1909.xls,deaths: wards sum == city,True,551 vs 551
+h1909.xls,population: wards sum == city,True,"1,029,092"
+h1910.xls,births: wards sum == city,True,771 vs 771
+h1910.xls,deaths: wards sum == city,True,474 vs 474
+h1910.xls,population: wards sum == city,True,"1,028,775"
+h1911.xls,births: wards sum == city,True,939 vs 939
+h1911.xls,deaths: wards sum == city,True,623 vs 623
+h1911.xls,population: wards sum == city,True,"1,029,571"
+h1912.xls,births: wards sum == city,True,793 vs 793
+h1912.xls,deaths: wards sum == city,True,608 vs 608
+h1912.xls,population: wards sum == city,True,"1,029,595"
+h2001.xls,births: wards sum == city,True,779 vs 779
+h2001.xls,deaths: wards sum == city,True,595 vs 595
+h2001.xls,population: wards sum == city,True,"1,029,552"
+h2002.xls,births: wards sum == city,True,834 vs 834
+h2002.xls,deaths: wards sum == city,True,699 vs 699
+h2002.xls,population: wards sum == city,True,"1,029,712"
+h2003.xls,births: wards sum == city,True,778 vs 778
+h2003.xls,deaths: wards sum == city,True,536 vs 536
+h2003.xls,population: wards sum == city,True,"1,029,551"
+h2004.xls,births: wards sum == city,True,754 vs 754
+h2004.xls,deaths: wards sum == city,True,650 vs 650
+h2004.xls,population: wards sum == city,True,"1,025,223"
+h2005.xls,births: wards sum == city,True,746 vs 746
+h2005.xls,deaths: wards sum == city,True,563 vs 563
+h2005.xls,population: wards sum == city,True,"1,029,576"
+h2006.xls,births: wards sum == city,True,894 vs 894
+h2006.xls,deaths: wards sum == city,True,568 vs 568
+h2006.xls,population: wards sum == city,True,"1,029,924"
+h2007.xls,births: wards sum == city,True,744 vs 744
+h2007.xls,deaths: wards sum == city,True,548 vs 548
+h2007.xls,population: wards sum == city,True,"1,029,999"
+h2008.xls,births: wards sum == city,True,869 vs 869
+h2008.xls,deaths: wards sum == city,True,571 vs 571
+h2008.xls,population: wards sum == city,True,"1,030,570"
+h2009.xls,births: wards sum == city,True,833 vs 833
+h2009.xls,deaths: wards sum == city,True,510 vs 510
+h2009.xls,population: wards sum == city,True,"1,030,931"
+h2010.xls,births: wards sum == city,True,819 vs 819
+h2010.xls,deaths: wards sum == city,True,520 vs 520
+h2010.xls,population: wards sum == city,True,"1,031,163"
+h2011.xls,births: wards sum == city,True,855 vs 855
+h2011.xls,deaths: wards sum == city,True,599 vs 599
+h2011.xls,population: wards sum == city,True,"1,031,704"
+h2012.xls,births: wards sum == city,True,769 vs 769
+h2012.xls,deaths: wards sum == city,True,537 vs 537
+h2012.xls,population: wards sum == city,True,"1,032,005"
+h2101.xls,births: wards sum == city,True,721 vs 721
+h2101.xls,deaths: wards sum == city,True,588 vs 588
+h2101.xls,population: wards sum == city,True,"1,031,961"
+h2102.xls,births: wards sum == city,True,851 vs 851
+h2102.xls,deaths: wards sum == city,True,767 vs 767
+h2102.xls,population: wards sum == city,True,"1,032,256"
+h2103.xls,births: wards sum == city,True,727 vs 727
+h2103.xls,deaths: wards sum == city,True,565 vs 565
+h2103.xls,population: wards sum == city,True,"1,032,187"
+h2104.xls,births: wards sum == city,True,738 vs 738
+h2104.xls,deaths: wards sum == city,True,650 vs 650
+h2104.xls,population: wards sum == city,True,"1,028,091"
+h2105.xls,births: wards sum == city,True,760 vs 760
+h2105.xls,deaths: wards sum == city,True,556 vs 556
+h2105.xls,population: wards sum == city,True,"1,031,964"
+h2106.xls,births: wards sum == city,True,779 vs 779
+h2106.xls,deaths: wards sum == city,True,585 vs 585
+h2106.xls,population: wards sum == city,True,"1,032,393"
+h2107.xls,births: wards sum == city,True,800 vs 800
+h2107.xls,deaths: wards sum == city,True,566 vs 566
+h2107.xls,population: wards sum == city,True,"1,032,516"
+h2108.xls,births: wards sum == city,True,796 vs 796
+h2108.xls,deaths: wards sum == city,True,523 vs 523
+h2108.xls,population: wards sum == city,True,"1,032,894"
+h2109.xls,births: wards sum == city,True,752 vs 752
+h2109.xls,deaths: wards sum == city,True,478 vs 478
+h2109.xls,population: wards sum == city,True,"1,033,442"
+h2110.xls,births: wards sum == city,True,792 vs 792
+h2110.xls,deaths: wards sum == city,True,538 vs 538
+h2110.xls,population: wards sum == city,True,"1,033,515"
+h2111.xls,births: wards sum == city,True,860 vs 860
+h2111.xls,deaths: wards sum == city,True,560 vs 560
+h2111.xls,population: wards sum == city,True,"1,034,334"
+h2112.xls,births: wards sum == city,True,779 vs 779
+h2112.xls,deaths: wards sum == city,True,603 vs 603
+h2112.xls,population: wards sum == city,True,"1,034,701"
+h2201.xls,source typo? 宮城野区,False,"自然増加数 printed 0, births − deaths = 101"
+h2201.xls,births: wards sum == city,True,768 vs 768
+h2201.xls,deaths: wards sum == city,True,585 vs 585
+h2201.xls,population: wards sum == city,True,"1,034,705"
+h2202.xls,births: wards sum == city,True,791 vs 791
+h2202.xls,deaths: wards sum == city,True,702 vs 702
+h2202.xls,population: wards sum == city,True,"1,034,680"
+h2203.xls,births: wards sum == city,True,751 vs 751
+h2203.xls,deaths: wards sum == city,True,580 vs 580
+h2203.xls,population: wards sum == city,True,"1,034,646"
+h2204.xls,births: wards sum == city,True,831 vs 831
+h2204.xls,deaths: wards sum == city,True,695 vs 695
+h2204.xls,population: wards sum == city,True,"1,031,904"
+h2205.xls,births: wards sum == city,True,777 vs 777
+h2205.xls,deaths: wards sum == city,True,627 vs 627
+h2205.xls,population: wards sum == city,True,"1,035,651"
+h2206.xls,births: wards sum == city,True,694 vs 694
+h2206.xls,deaths: wards sum == city,True,576 vs 576
+h2206.xls,population: wards sum == city,True,"1,036,306"
+h2207.xls,births: wards sum == city,True,802 vs 802
+h2207.xls,deaths: wards sum == city,True,570 vs 570
+h2207.xls,population: wards sum == city,True,"1,036,550"
+h2208.xls,births: wards sum == city,True,791 vs 791
+h2208.xls,deaths: wards sum == city,True,581 vs 581
+h2208.xls,population: wards sum == city,True,"1,036,560"
+h2209.xls,births: wards sum == city,True,844 vs 844
+h2209.xls,deaths: wards sum == city,True,673 vs 673
+h2209.xls,population: wards sum == city,True,"1,037,093"
+h2210.xlsx,births: wards sum == city,True,822 vs 822
+h2210.xlsx,deaths: wards sum == city,True,571 vs 571
+h2210.xlsx,population: wards sum == city,True,"1,045,986"
+h2211.xls,births: wards sum == city,True,803 vs 803
+h2211.xls,deaths: wards sum == city,True,571 vs 571
+h2211.xls,population: wards sum == city,True,"1,046,363"
+h2212.xls,births: wards sum == city,True,807 vs 807
+h2212.xls,deaths: wards sum == city,True,638 vs 638
+h2212.xls,population: wards sum == city,True,"1,046,766"
+h2301.xls,births: wards sum == city,True,721 vs 721
+h2301.xls,deaths: wards sum == city,True,617 vs 617
+h2301.xls,population: wards sum == city,True,"1,046,907"
+h2302.xls,births: wards sum == city,True,777 vs 777
+h2302.xls,deaths: wards sum == city,True,803 vs 803
+h2302.xls,population: wards sum == city,True,"1,046,986"
+h2303.xls,births: wards sum == city,True,737 vs 737
+h2303.xls,deaths: wards sum == city,True,617 vs 617
+h2303.xls,population: wards sum == city,True,"1,046,737"
+h2304.xls,births: wards sum == city,True,711 vs 711
+h2304.xls,deaths: wards sum == city,True,1204 vs 1204
+h2304.xls,population: wards sum == city,True,"1,042,053"
+h2305.xls,births: wards sum == city,True,701 vs 701
+h2305.xls,deaths: wards sum == city,True,1037 vs 1037
+h2305.xls,population: wards sum == city,True,"1,041,974"
+h2306-1.xls,births: wards sum == city,True,824 vs 824
+h2306-1.xls,deaths: wards sum == city,True,758 vs 758
+h2306-1.xls,population: wards sum == city,True,"1,044,318"
+h2307.xls,births: wards sum == city,True,764 vs 764
+h2307.xls,deaths: wards sum == city,True,655 vs 655
+h2307.xls,population: wards sum == city,True,"1,045,347"
+h2308.xls,births: wards sum == city,True,743 vs 743
+h2308.xls,deaths: wards sum == city,True,609 vs 609
+h2308.xls,population: wards sum == city,True,"1,046,684"
+h2309.xls,births: wards sum == city,True,832 vs 832
+h2309.xls,deaths: wards sum == city,True,659 vs 659
+h2309.xls,population: wards sum == city,True,"1,048,792"
+h2310.xls,births: wards sum == city,True,722 vs 722
+h2310.xls,deaths: wards sum == city,True,598 vs 598
+h2310.xls,population: wards sum == city,True,"1,049,493"
+h2311.xls,births: wards sum == city,True,783 vs 783
+h2311.xls,deaths: wards sum == city,True,657 vs 657
+h2311.xls,population: wards sum == city,True,"1,050,922"
+h2312.xls,births: wards sum == city,True,769 vs 769
+h2312.xls,deaths: wards sum == city,True,641 vs 641
+h2312.xls,population: wards sum == city,True,"1,052,039"
+h2401.xls,births: wards sum == city,True,534 vs 534
+h2401.xls,deaths: wards sum == city,True,622 vs 622
+h2401.xls,population: wards sum == city,True,"1,052,476"
+h2402.xls,births: wards sum == city,True,806 vs 806
+h2402.xls,deaths: wards sum == city,True,835 vs 835
+h2402.xls,population: wards sum == city,True,"1,053,086"
+h2403.xls,births: wards sum == city,True,746 vs 746
+h2403.xls,deaths: wards sum == city,True,698 vs 698
+h2403.xls,population: wards sum == city,True,"1,053,817"
+h2404.xls,births: wards sum == city,True,779 vs 779
+h2404.xls,deaths: wards sum == city,True,715 vs 715
+h2404.xls,population: wards sum == city,True,"1,049,824"
+h2405.xls,births: wards sum == city,True,677 vs 677
+h2405.xls,deaths: wards sum == city,True,594 vs 594
+h2405.xls,population: wards sum == city,True,"1,055,770"
+h2406.xls,births: wards sum == city,True,866 vs 866
+h2406.xls,deaths: wards sum == city,True,648 vs 648
+h2406.xls,population: wards sum == city,True,"1,057,659"
+h2407.xls,births: wards sum == city,True,747 vs 747
+h2407.xls,deaths: wards sum == city,True,576 vs 576
+h2407.xls,population: wards sum == city,True,"1,058,412"
+h2408.xls,births: wards sum == city,True,801 vs 801
+h2408.xls,deaths: wards sum == city,True,626 vs 626
+h2408.xls,population: wards sum == city,True,"1,059,129"
+h2409.xls,births: wards sum == city,True,828 vs 828
+h2409.xls,deaths: wards sum == city,True,640 vs 640
+h2409.xls,population: wards sum == city,True,"1,060,263"
+h2410.xls,births: wards sum == city,True,764 vs 764
+h2410.xls,deaths: wards sum == city,True,536 vs 536
+h2410.xls,population: wards sum == city,True,"1,060,877"
+h2411.xls,births: wards sum == city,True,925 vs 925
+h2411.xls,deaths: wards sum == city,True,732 vs 732
+h2411.xls,population: wards sum == city,True,"1,062,328"
+h2412.xls,births: wards sum == city,True,773 vs 773
+h2412.xls,deaths: wards sum == city,True,628 vs 628
+h2412.xls,population: wards sum == city,True,"1,063,024"
+h2501.xls,births: wards sum == city,True,770 vs 770
+h2501.xls,deaths: wards sum == city,True,684 vs 684
+h2501.xls,population: wards sum == city,True,"1,063,103"
+h2502.xls,births: wards sum == city,True,883 vs 883
+h2502.xls,deaths: wards sum == city,True,850 vs 850
+h2502.xls,population: wards sum == city,True,"1,063,552"
+h2503.xls,births: wards sum == city,True,699 vs 699
+h2503.xls,deaths: wards sum == city,True,696 vs 696
+h2503.xls,population: wards sum == city,True,"1,063,608"
+h2504.xls,births: wards sum == city,True,773 vs 773
+h2504.xls,deaths: wards sum == city,True,642 vs 642
+h2504.xls,population: wards sum == city,True,"1,058,939"
+h2505.xls,births: wards sum == city,True,776 vs 776
+h2505.xls,deaths: wards sum == city,True,665 vs 665
+h2505.xls,population: wards sum == city,True,"1,065,019"
+h2506.xls,births: wards sum == city,True,878 vs 878
+h2506.xls,deaths: wards sum == city,True,702 vs 702
+h2506.xls,population: wards sum == city,True,"1,066,079"
+h2507.xls,births: wards sum == city,True,727 vs 727
+h2507.xls,deaths: wards sum == city,True,567 vs 567
+h2507.xls,population: wards sum == city,True,"1,066,597"
+h2508.xls,births: wards sum == city,True,865 vs 865
+h2508.xls,deaths: wards sum == city,True,647 vs 647
+h2508.xls,population: wards sum == city,True,"1,067,615"
+h2509.xls,births: wards sum == city,True,901 vs 901
+h2509.xls,deaths: wards sum == city,True,640 vs 640
+h2509.xls,population: wards sum == city,True,"1,068,241"
+h2510.xls,births: wards sum == city,True,859 vs 859
+h2510.xls,deaths: wards sum == city,True,683 vs 683
+h2510.xls,population: wards sum == city,True,"1,068,511"
+h2511.xls,births: wards sum == city,True,889 vs 889
+h2511.xls,deaths: wards sum == city,True,678 vs 678
+h2511.xls,population: wards sum == city,True,"1,069,434"
+h2512.xls,births: wards sum == city,True,697 vs 697
+h2512.xls,deaths: wards sum == city,True,681 vs 681
+h2512.xls,population: wards sum == city,True,"1,069,807"
+h2601.xls,births: wards sum == city,True,794 vs 794
+h2601.xls,deaths: wards sum == city,True,663 vs 663
+h2601.xls,population: wards sum == city,True,"1,069,995"
+h2602.xls,births: wards sum == city,True,846 vs 846
+h2602.xls,deaths: wards sum == city,True,870 vs 870
+h2602.xls,population: wards sum == city,True,"1,070,389"
+h2603.xls,births: wards sum == city,True,682 vs 682
+h2603.xls,deaths: wards sum == city,True,680 vs 680
+h2603.xls,population: wards sum == city,True,"1,070,301"
+h2604.xls,births: wards sum == city,True,717 vs 717
+h2604.xls,deaths: wards sum == city,True,730 vs 730
+h2604.xls,population: wards sum == city,True,"1,066,609"
+h2605.xls,births: wards sum == city,True,760 vs 760
+h2605.xls,deaths: wards sum == city,True,715 vs 715
+h2605.xls,population: wards sum == city,True,"1,070,757"
+h2606.xls,births: wards sum == city,True,732 vs 732
+h2606.xls,deaths: wards sum == city,True,643 vs 643
+h2606.xls,population: wards sum == city,True,"1,071,383"
+h2607.xls,births: wards sum == city,True,759 vs 759
+h2607.xls,deaths: wards sum == city,True,618 vs 618
+h2607.xls,population: wards sum == city,True,"1,071,947"
+h2608.xls,births: wards sum == city,True,799 vs 799
+h2608.xls,deaths: wards sum == city,True,635 vs 635
+h2608.xls,population: wards sum == city,True,"1,072,564"
+h2609.xls,births: wards sum == city,True,777 vs 777
+h2609.xls,deaths: wards sum == city,True,560 vs 560
+h2609.xls,population: wards sum == city,True,"1,073,058"
+h2610-1.xls,births: wards sum == city,True,846 vs 846
+h2610-1.xls,deaths: wards sum == city,True,672 vs 672
+h2610-1.xls,population: wards sum == city,True,"1,073,242"
+h2611.xlsx,births: wards sum == city,True,891 vs 891
+h2611.xlsx,deaths: wards sum == city,True,743 vs 743
+h2611.xlsx,population: wards sum == city,True,"1,073,681"
+h2612.xlsx,births: wards sum == city,True,713 vs 713
+h2612.xlsx,deaths: wards sum == city,True,644 vs 644
+h2612.xlsx,population: wards sum == city,True,"1,074,125"
+h2701.xlsx,births: wards sum == city,True,784 vs 784
+h2701.xlsx,deaths: wards sum == city,True,734 vs 734
+h2701.xlsx,population: wards sum == city,True,"1,073,926"
+h2702.xlsx,births: wards sum == city,True,841 vs 841
+h2702.xlsx,deaths: wards sum == city,True,1009 vs 1009
+h2702.xlsx,population: wards sum == city,True,"1,073,942"
+h2703.xlsx,births: wards sum == city,True,661 vs 661
+h2703.xlsx,deaths: wards sum == city,True,677 vs 677
+h2703.xlsx,population: wards sum == city,True,"1,073,765"
+h2704.xlsx,births: wards sum == city,True,756 vs 756
+h2704.xlsx,deaths: wards sum == city,True,740 vs 740
+h2704.xlsx,population: wards sum == city,True,"1,070,713"
+h2705.xlsx,births: wards sum == city,True,782 vs 782
+h2705.xlsx,deaths: wards sum == city,True,702 vs 702
+h2705.xlsx,population: wards sum == city,True,"1,074,495"
+h2706.xlsx,births: wards sum == city,True,745 vs 745
+h2706.xlsx,deaths: wards sum == city,True,660 vs 660
+h2706.xlsx,population: wards sum == city,True,"1,074,928"
+h2707.xlsx,births: wards sum == city,True,769 vs 769
+h2707.xlsx,deaths: wards sum == city,True,649 vs 649
+h2707.xlsx,population: wards sum == city,True,"1,075,069"
+h2708.xlsx,births: wards sum == city,True,803 vs 803
+h2708.xlsx,deaths: wards sum == city,True,630 vs 630
+h2708.xlsx,population: wards sum == city,True,"1,075,390"
+h2709.xlsx,births: wards sum == city,True,816 vs 816
+h2709.xlsx,deaths: wards sum == city,True,655 vs 655
+h2709.xlsx,population: wards sum == city,True,"1,075,813"
+h2710.xlsx,births: wards sum == city,True,773 vs 773
+h2710.xlsx,deaths: wards sum == city,True,696 vs 696
+h2710.xlsx,population: wards sum == city,True,"1,082,159"
+h2711.xlsx,births: wards sum == city,True,814 vs 814
+h2711.xlsx,deaths: wards sum == city,True,674 vs 674
+h2711.xlsx,population: wards sum == city,True,"1,082,756"
+h2712.xlsx,births: wards sum == city,True,734 vs 734
+h2712.xlsx,deaths: wards sum == city,True,753 vs 753
+h2712.xlsx,population: wards sum == city,True,"1,083,102"
+h2801.xlsx,births: wards sum == city,True,753 vs 753
+h2801.xlsx,deaths: wards sum == city,True,705 vs 705
+h2801.xlsx,population: wards sum == city,True,"1,083,049"
+h2802.xlsx,births: wards sum == city,True,742 vs 742
+h2802.xlsx,deaths: wards sum == city,True,836 vs 836
+h2802.xlsx,population: wards sum == city,True,"1,083,053"
+h2803.xlsx,births: wards sum == city,True,730 vs 730
+h2803.xlsx,deaths: wards sum == city,True,786 vs 786
+h2803.xlsx,population: wards sum == city,True,"1,082,847"
+h2804.xlsx,births: wards sum == city,True,819 vs 819
+h2804.xlsx,deaths: wards sum == city,True,783 vs 783
+h2804.xlsx,population: wards sum == city,True,"1,079,850"
+h2805.xlsx,births: wards sum == city,True,706 vs 706
+h2805.xlsx,deaths: wards sum == city,True,660 vs 660
+h2805.xlsx,population: wards sum == city,True,"1,083,420"
+h2806.xlsx,births: wards sum == city,True,797 vs 797
+h2806.xlsx,deaths: wards sum == city,True,767 vs 767
+h2806.xlsx,population: wards sum == city,True,"1,083,993"
+h2807.xlsx,births: wards sum == city,True,715 vs 715
+h2807.xlsx,deaths: wards sum == city,True,608 vs 608
+h2807.xlsx,population: wards sum == city,True,"1,084,199"
+h2808.xlsx,births: wards sum == city,True,770 vs 770
+h2808.xlsx,deaths: wards sum == city,True,590 vs 590
+h2808.xlsx,population: wards sum == city,True,"1,084,504"
+h2809.xlsx,births: wards sum == city,True,784 vs 784
+h2809.xlsx,deaths: wards sum == city,True,735 vs 735
+h2809.xlsx,population: wards sum == city,True,"1,084,938"
+h2810.xlsx,births: wards sum == city,True,774 vs 774
+h2810.xlsx,deaths: wards sum == city,True,697 vs 697
+h2810.xlsx,population: wards sum == city,True,"1,084,674"
+h2811.xlsx,births: wards sum == city,True,757 vs 757
+h2811.xlsx,deaths: wards sum == city,True,707 vs 707
+h2811.xlsx,population: wards sum == city,True,"1,085,450"
+h2812.xlsx,births: wards sum == city,True,768 vs 768
+h2812.xlsx,deaths: wards sum == city,True,752 vs 752
+h2812.xlsx,population: wards sum == city,True,"1,085,288"
+h2901.xlsx,births: wards sum == city,True,650 vs 650
+h2901.xlsx,deaths: wards sum == city,True,707 vs 707
+h2901.xlsx,population: wards sum == city,True,"1,085,063"
+h2902.xlsx,births: wards sum == city,True,731 vs 731
+h2902.xlsx,deaths: wards sum == city,True,953 vs 953
+h2902.xlsx,population: wards sum == city,True,"1,084,965"
+h2903.xlsx,births: wards sum == city,True,680 vs 680
+h2903.xlsx,deaths: wards sum == city,True,723 vs 723
+h2903.xlsx,population: wards sum == city,True,"1,084,627"
+h2904.xlsx,births: wards sum == city,True,742 vs 742
+h2904.xlsx,deaths: wards sum == city,True,787 vs 787
+h2904.xlsx,population: wards sum == city,True,"1,080,263"
+h2905.xlsx,births: wards sum == city,True,642 vs 642
+h2905.xlsx,deaths: wards sum == city,True,660 vs 660
+h2905.xlsx,population: wards sum == city,True,"1,084,616"
+h2906.xlsx,births: wards sum == city,True,814 vs 814
+h2906.xlsx,deaths: wards sum == city,True,787 vs 787
+h2906.xlsx,population: wards sum == city,True,"1,085,155"
+h2907.xlsx,births: wards sum == city,True,720 vs 720
+h2907.xlsx,deaths: wards sum == city,True,625 vs 625
+h2907.xlsx,population: wards sum == city,True,"1,085,156"
+h2908.xlsx,births: wards sum == city,True,726 vs 726
+h2908.xlsx,deaths: wards sum == city,True,669 vs 669
+h2908.xlsx,population: wards sum == city,True,"1,086,012"
+h2909.xlsx,births: wards sum == city,True,809 vs 809
+h2909.xlsx,deaths: wards sum == city,True,711 vs 711
+h2909.xlsx,population: wards sum == city,True,"1,086,221"
+h2910.xlsx,births: wards sum == city,True,714 vs 714
+h2910.xlsx,deaths: wards sum == city,True,612 vs 612
+h2910.xlsx,population: wards sum == city,True,"1,086,377"
+h2911.xlsx,births: wards sum == city,True,749 vs 749
+h2911.xlsx,deaths: wards sum == city,True,764 vs 764
+h2911.xlsx,population: wards sum == city,True,"1,087,118"
+h2912.xlsx,births: wards sum == city,True,713 vs 713
+h2912.xlsx,deaths: wards sum == city,True,754 vs 754
+h2912.xlsx,population: wards sum == city,True,"1,087,182"
+h3001.xlsx,births: wards sum == city,True,689 vs 689
+h3001.xlsx,deaths: wards sum == city,True,780 vs 780
+h3001.xlsx,population: wards sum == city,True,"1,087,091"
+h3002.xlsx,births: wards sum == city,True,767 vs 767
+h3002.xlsx,deaths: wards sum == city,True,895 vs 895
+h3002.xlsx,population: wards sum == city,True,"1,087,201"
+h3003.xlsx,births: wards sum == city,True,631 vs 631
+h3003.xlsx,deaths: wards sum == city,True,759 vs 759
+h3003.xlsx,population: wards sum == city,True,"1,086,904"
+h3004.xlsx,births: wards sum == city,True,643 vs 643
+h3004.xlsx,deaths: wards sum == city,True,759 vs 759
+h3004.xlsx,population: wards sum == city,True,"1,083,148"
+h3005.xlsx,births: wards sum == city,True,651 vs 651
+h3005.xlsx,deaths: wards sum == city,True,694 vs 694
+h3005.xlsx,population: wards sum == city,True,"1,087,246"
+h3006.xlsx,births: wards sum == city,True,782 vs 782
+h3006.xlsx,deaths: wards sum == city,True,758 vs 758
+h3006.xlsx,population: wards sum == city,True,"1,088,027"
+h3007.xlsx,births: wards sum == city,True,680 vs 680
+h3007.xlsx,deaths: wards sum == city,True,641 vs 641
+h3007.xlsx,population: wards sum == city,True,"1,087,938"
+h3008.xlsx,births: wards sum == city,True,742 vs 742
+h3008.xlsx,deaths: wards sum == city,True,686 vs 686
+h3008.xlsx,population: wards sum == city,True,"1,088,466"
+h3009.xlsx,births: wards sum == city,True,763 vs 763
+h3009.xlsx,deaths: wards sum == city,True,738 vs 738
+h3009.xlsx,population: wards sum == city,True,"1,088,593"
+h3010.xlsx,births: wards sum == city,True,694 vs 694
+h3010.xlsx,deaths: wards sum == city,True,668 vs 668
+h3010.xlsx,population: wards sum == city,True,"1,088,669"
+h3011.xlsx,births: wards sum == city,True,757 vs 757
+h3011.xlsx,deaths: wards sum == city,True,808 vs 808
+h3011.xlsx,population: wards sum == city,True,"1,089,283"
+h3012.xlsx,births: wards sum == city,True,764 vs 764
+h3012.xlsx,deaths: wards sum == city,True,802 vs 802
+h3012.xlsx,population: wards sum == city,True,"1,089,380"
+h3101.xlsx,births: wards sum == city,True,621 vs 621
+h3101.xlsx,deaths: wards sum == city,True,793 vs 793
+h3101.xlsx,population: wards sum == city,True,"1,089,131"
+h3102.xlsx,births: wards sum == city,True,668 vs 668
+h3102.xlsx,deaths: wards sum == city,True,936 vs 936
+h3102.xlsx,population: wards sum == city,True,"1,089,121"
+h3103.xlsx,births: wards sum == city,True,547 vs 547
+h3103.xlsx,deaths: wards sum == city,True,709 vs 709
+h3103.xlsx,population: wards sum == city,True,"1,088,673"
+h3104.xlsx,births: wards sum == city,True,603 vs 603
+h3104.xlsx,deaths: wards sum == city,True,788 vs 788
+h3104.xlsx,population: wards sum == city,True,"1,085,235"
+r0105.xlsx,births: wards sum == city,True,625 vs 625
+r0105.xlsx,deaths: wards sum == city,True,716 vs 716
+r0105.xlsx,population: wards sum == city,True,"1,088,786"
+r0106.xlsx,births: wards sum == city,True,712 vs 712
+r0106.xlsx,deaths: wards sum == city,True,807 vs 807
+r0106.xlsx,population: wards sum == city,True,"1,089,372"
+r0107.xlsx,births: wards sum == city,True,622 vs 622
+r0107.xlsx,deaths: wards sum == city,True,623 vs 623
+r0107.xlsx,population: wards sum == city,True,"1,089,331"
+r0108.xlsx,births: wards sum == city,True,688 vs 688
+r0108.xlsx,deaths: wards sum == city,True,715 vs 715
+r0108.xlsx,population: wards sum == city,True,"1,090,034"
+r0109.xlsx,births: wards sum == city,True,729 vs 729
+r0109.xlsx,deaths: wards sum == city,True,783 vs 783
+r0109.xlsx,population: wards sum == city,True,"1,089,888"
+r0110.xlsx,births: wards sum == city,True,717 vs 717
+r0110.xlsx,deaths: wards sum == city,True,707 vs 707
+r0110.xlsx,population: wards sum == city,True,"1,090,263"
+r0111.xlsx,births: wards sum == city,True,704 vs 704
+r0111.xlsx,deaths: wards sum == city,True,773 vs 773
+r0111.xlsx,population: wards sum == city,True,"1,090,785"
+r0112.xlsx,births: wards sum == city,True,615 vs 615
+r0112.xlsx,deaths: wards sum == city,True,786 vs 786
+r0112.xlsx,population: wards sum == city,True,"1,090,698"
+r0201.xlsx,births: wards sum == city,True,631 vs 631
+r0201.xlsx,deaths: wards sum == city,True,788 vs 788
+r0201.xlsx,population: wards sum == city,True,"1,090,606"
+r0202.xlsx,births: wards sum == city,True,647 vs 647
+r0202.xlsx,deaths: wards sum == city,True,914 vs 914
+r0202.xlsx,population: wards sum == city,True,"1,090,454"
+r0203.xlsx,births: wards sum == city,True,572 vs 572
+r0203.xlsx,deaths: wards sum == city,True,757 vs 757
+r0203.xlsx,population: wards sum == city,True,"1,090,072"
+r0204.xlsx,births: wards sum == city,True,682 vs 682
+r0204.xlsx,deaths: wards sum == city,True,808 vs 808
+r0204.xlsx,population: wards sum == city,True,"1,087,723"
+r0205.xlsx,births: wards sum == city,True,679 vs 679
+r0205.xlsx,deaths: wards sum == city,True,814 vs 814
+r0205.xlsx,population: wards sum == city,True,"1,091,297"
+r0206.xlsx,births: wards sum == city,True,616 vs 616
+r0206.xlsx,deaths: wards sum == city,True,667 vs 667
+r0206.xlsx,population: wards sum == city,True,"1,091,407"
+r0207.xlsx,births: wards sum == city,True,689 vs 689
+r0207.xlsx,deaths: wards sum == city,True,722 vs 722
+r0207.xlsx,population: wards sum == city,True,"1,091,588"
+r0208.xlsx,births: wards sum == city,True,718 vs 718
+r0208.xlsx,deaths: wards sum == city,True,720 vs 720
+r0208.xlsx,population: wards sum == city,True,"1,091,774"
+r0209.xlsx,births: wards sum == city,True,653 vs 653
+r0209.xlsx,deaths: wards sum == city,True,669 vs 669
+r0209.xlsx,population: wards sum == city,True,"1,092,094"
+r0210.xlsx,births: wards sum == city,True,707 vs 707
+r0210.xlsx,deaths: wards sum == city,True,700 vs 700
+r0210.xlsx,population: wards sum == city,True,"1,096,704"
+r0211.xlsx,births: wards sum == city,True,715 vs 715
+r0211.xlsx,deaths: wards sum == city,True,764 vs 764
+r0211.xlsx,population: wards sum == city,True,"1,096,735"
+r0212.xlsx,births: wards sum == city,True,602 vs 602
+r0212.xlsx,deaths: wards sum == city,True,825 vs 825
+r0212.xlsx,population: wards sum == city,True,"1,096,965"
+r0301.xlsx,births: wards sum == city,True,640 vs 640
+r0301.xlsx,deaths: wards sum == city,True,848 vs 848
+r0301.xlsx,population: wards sum == city,True,"1,097,190"
+r0302.xlsx,births: wards sum == city,True,558 vs 558
+r0302.xlsx,deaths: wards sum == city,True,1021 vs 1021
+r0302.xlsx,population: wards sum == city,True,"1,097,029"
+r0303.xlsx,births: wards sum == city,True,516 vs 516
+r0303.xlsx,deaths: wards sum == city,True,773 vs 773
+r0303.xlsx,population: wards sum == city,True,"1,096,648"
+r0304.xlsx,births: wards sum == city,True,620 vs 620
+r0304.xlsx,deaths: wards sum == city,True,872 vs 872
+r0304.xlsx,population: wards sum == city,True,"1,094,427"
+r0305.xlsx,births: wards sum == city,True,648 vs 648
+r0305.xlsx,deaths: wards sum == city,True,756 vs 756
+r0305.xlsx,population: wards sum == city,True,"1,096,802"
+r0306.xlsx,births: wards sum == city,True,645 vs 645
+r0306.xlsx,deaths: wards sum == city,True,792 vs 792
+r0306.xlsx,population: wards sum == city,True,"1,097,144"
+r0307.xlsx,births: wards sum == city,True,619 vs 619
+r0307.xlsx,deaths: wards sum == city,True,760 vs 760
+r0307.xlsx,population: wards sum == city,True,"1,096,900"
+r0308.xlsx,births: wards sum == city,True,655 vs 655
+r0308.xlsx,deaths: wards sum == city,True,759 vs 759
+r0308.xlsx,population: wards sum == city,True,"1,096,929"
+r0309.xlsx,births: wards sum == city,True,683 vs 683
+r0309.xlsx,deaths: wards sum == city,True,833 vs 833
+r0309.xlsx,population: wards sum == city,True,"1,097,371"
+r0310_2.xlsx,births: wards sum == city,True,621 vs 621
+r0310_2.xlsx,deaths: wards sum == city,True,761 vs 761
+r0310_2.xlsx,population: wards sum == city,True,"1,097,237"
+r0311.xlsx,births: wards sum == city,True,605 vs 605
+r0311.xlsx,deaths: wards sum == city,True,750 vs 750
+r0311.xlsx,population: wards sum == city,True,"1,097,062"
+r0312.xlsx,births: wards sum == city,True,645 vs 645
+r0312.xlsx,deaths: wards sum == city,True,900 vs 900
+r0312.xlsx,population: wards sum == city,True,"1,096,993"
+r0401.xlsx,births: wards sum == city,True,566 vs 566
+r0401.xlsx,deaths: wards sum == city,True,817 vs 817
+r0401.xlsx,population: wards sum == city,True,"1,096,623"
+r0402.xlsx,births: wards sum == city,True,657 vs 657
+r0402.xlsx,deaths: wards sum == city,True,1048 vs 1048
+r0402.xlsx,population: wards sum == city,True,"1,096,222"
+r0403_2.xlsx,births: wards sum == city,True,499 vs 499
+r0403_2.xlsx,deaths: wards sum == city,True,857 vs 857
+r0403_2.xlsx,population: wards sum == city,True,"1,095,730"
+r0404.xlsx,births: wards sum == city,True,607 vs 607
+r0404.xlsx,deaths: wards sum == city,True,982 vs 982
+r0404.xlsx,population: wards sum == city,True,"1,093,543"
+r0405.xlsx,births: wards sum == city,True,551 vs 551
+r0405.xlsx,deaths: wards sum == city,True,780 vs 780
+r0405.xlsx,population: wards sum == city,True,"1,096,925"
+r0406.xlsx,births: wards sum == city,True,600 vs 600
+r0406.xlsx,deaths: wards sum == city,True,871 vs 871
+r0406.xlsx,population: wards sum == city,True,"1,098,309"
+r0407.xlsx,births: wards sum == city,True,590 vs 590
+r0407.xlsx,deaths: wards sum == city,True,776 vs 776
+r0407.xlsx,population: wards sum == city,True,"1,098,811"
+r0408.xlsx,births: wards sum == city,True,580 vs 580
+r0408.xlsx,deaths: wards sum == city,True,746 vs 746
+r0408.xlsx,population: wards sum == city,True,"1,099,162"
+r0409.xlsx,births: wards sum == city,True,663 vs 663
+r0409.xlsx,deaths: wards sum == city,True,938 vs 938
+r0409.xlsx,population: wards sum == city,True,"1,099,387"
+r0410.xlsx,births: wards sum == city,True,667 vs 667
+r0410.xlsx,deaths: wards sum == city,True,869 vs 869
+r0410.xlsx,population: wards sum == city,True,"1,099,239"
+r0411_1.xlsx,births: wards sum == city,True,600 vs 600
+r0411_1.xlsx,deaths: wards sum == city,True,889 vs 889
+r0411_1.xlsx,population: wards sum == city,True,"1,099,547"
+r0412.xlsx,births: wards sum == city,True,569 vs 569
+r0412.xlsx,deaths: wards sum == city,True,1029 vs 1029
+r0412.xlsx,population: wards sum == city,True,"1,099,352"
+r0501_1.xlsx,births: wards sum == city,True,535 vs 535
+r0501_1.xlsx,deaths: wards sum == city,True,1040 vs 1040
+r0501_1.xlsx,population: wards sum == city,True,"1,098,744"
+r0502.xlsx,births: wards sum == city,True,534 vs 534
+r0502.xlsx,deaths: wards sum == city,True,1271 vs 1271
+r0502.xlsx,population: wards sum == city,True,"1,098,156"
+r0503.xlsx,births: wards sum == city,True,496 vs 496
+r0503.xlsx,deaths: wards sum == city,True,917 vs 917
+r0503.xlsx,population: wards sum == city,True,"1,097,563"
+r0504.xlsx,births: wards sum == city,True,533 vs 533
+r0504.xlsx,deaths: wards sum == city,True,1002 vs 1002
+r0504.xlsx,population: wards sum == city,True,"1,094,520"
+r0505.xlsx,births: wards sum == city,True,529 vs 529
+r0505.xlsx,deaths: wards sum == city,True,856 vs 856
+r0505.xlsx,population: wards sum == city,True,"1,097,804"
+r0506.xlsx,births: wards sum == city,True,597 vs 597
+r0506.xlsx,deaths: wards sum == city,True,942 vs 942
+r0506.xlsx,population: wards sum == city,True,"1,098,221"
+r0507.xlsx,births: wards sum == city,True,609 vs 609
+r0507.xlsx,deaths: wards sum == city,True,778 vs 778
+r0507.xlsx,population: wards sum == city,True,"1,097,935"
+r0508.xlsx,births: wards sum == city,True,560 vs 560
+r0508.xlsx,deaths: wards sum == city,True,783 vs 783
+r0508.xlsx,population: wards sum == city,True,"1,098,335"
+r0509.xlsx,births: wards sum == city,True,606 vs 606
+r0509.xlsx,deaths: wards sum == city,True,938 vs 938
+r0509.xlsx,population: wards sum == city,True,"1,098,219"
+r0510.xlsx,births: wards sum == city,True,547 vs 547
+r0510.xlsx,deaths: wards sum == city,True,899 vs 899
+r0510.xlsx,population: wards sum == city,True,"1,097,814"
+r0511.xlsx,births: wards sum == city,True,594 vs 594
+r0511.xlsx,deaths: wards sum == city,True,959 vs 959
+r0511.xlsx,population: wards sum == city,True,"1,098,130"
+r0512.xlsx,births: wards sum == city,True,546 vs 546
+r0512.xlsx,deaths: wards sum == city,True,943 vs 943
+r0512.xlsx,population: wards sum == city,True,"1,098,036"
+r0601.xlsx,births: wards sum == city,True,533 vs 533
+r0601.xlsx,deaths: wards sum == city,True,951 vs 951
+r0601.xlsx,population: wards sum == city,True,"1,097,620"
+r0602.xlsx,births: wards sum == city,True,558 vs 558
+r0602.xlsx,deaths: wards sum == city,True,1152 vs 1152
+r0602.xlsx,population: wards sum == city,True,"1,097,032"
+r0603.xlsx,births: wards sum == city,True,484 vs 484
+r0603.xlsx,deaths: wards sum == city,True,975 vs 975
+r0603.xlsx,population: wards sum == city,True,"1,096,213"
+r0604.xlsx,births: wards sum == city,True,491 vs 491
+r0604.xlsx,deaths: wards sum == city,True,995 vs 995
+r0604.xlsx,population: wards sum == city,True,"1,092,708"
+r0605.xlsx,births: wards sum == city,True,529 vs 529
+r0605.xlsx,deaths: wards sum == city,True,936 vs 936
+r0605.xlsx,population: wards sum == city,True,"1,096,091"
+r0606.xlsx,births: wards sum == city,True,578 vs 578
+r0606.xlsx,deaths: wards sum == city,True,908 vs 908
+r0606.xlsx,population: wards sum == city,True,"1,096,405"
+r0607.xlsx,births: wards sum == city,True,458 vs 458
+r0607.xlsx,deaths: wards sum == city,True,786 vs 786
+r0607.xlsx,population: wards sum == city,True,"1,096,194"
+r0608.xlsx,births: wards sum == city,True,589 vs 589
+r0608.xlsx,deaths: wards sum == city,True,889 vs 889
+r0608.xlsx,population: wards sum == city,True,"1,096,522"
+r0609.xlsx,births: wards sum == city,True,518 vs 518
+r0609.xlsx,deaths: wards sum == city,True,912 vs 912
+r0609.xlsx,population: wards sum == city,True,"1,096,162"
+r0610.xlsx,births: wards sum == city,True,552 vs 552
+r0610.xlsx,deaths: wards sum == city,True,843 vs 843
+r0610.xlsx,population: wards sum == city,True,"1,096,168"
+r0611.xlsx,births: wards sum == city,True,566 vs 566
+r0611.xlsx,deaths: wards sum == city,True,1060 vs 1060
+r0611.xlsx,population: wards sum == city,True,"1,096,079"
+r0612.xlsx,births: wards sum == city,True,448 vs 448
+r0612.xlsx,deaths: wards sum == city,True,885 vs 885
+r0612.xlsx,population: wards sum == city,True,"1,095,744"
+r0701_1.xlsx,births: wards sum == city,True,507 vs 507
+r0701_1.xlsx,deaths: wards sum == city,True,931 vs 931
+r0701_1.xlsx,population: wards sum == city,True,"1,095,400"
+r0702.xlsx,births: wards sum == city,True,544 vs 544
+r0702.xlsx,deaths: wards sum == city,True,1282 vs 1282
+r0702.xlsx,population: wards sum == city,True,"1,094,738"
+r0703.xlsx,births: wards sum == city,True,447 vs 447
+r0703.xlsx,deaths: wards sum == city,True,1004 vs 1004
+r0703.xlsx,population: wards sum == city,True,"1,093,813"
+r0704.xlsx,births: wards sum == city,True,477 vs 477
+r0704.xlsx,deaths: wards sum == city,True,978 vs 978
+r0704.xlsx,population: wards sum == city,True,"1,091,266"
+r0705.xlsx,births: wards sum == city,True,496 vs 496
+r0705.xlsx,deaths: wards sum == city,True,866 vs 866
+r0705.xlsx,population: wards sum == city,True,"1,094,395"
+r0706_1.xlsx,births: wards sum == city,True,558 vs 558
+r0706_1.xlsx,deaths: wards sum == city,True,837 vs 837
+r0706_1.xlsx,population: wards sum == city,True,"1,094,472"
+r0707.xlsx,births: wards sum == city,True,533 vs 533
+r0707.xlsx,deaths: wards sum == city,True,796 vs 796
+r0707.xlsx,population: wards sum == city,True,"1,094,530"
+r0708.xlsx,births: wards sum == city,True,562 vs 562
+r0708.xlsx,deaths: wards sum == city,True,849 vs 849
+r0708.xlsx,population: wards sum == city,True,"1,094,835"
+r0709.xlsx,births: wards sum == city,True,562 vs 562
+r0709.xlsx,deaths: wards sum == city,True,862 vs 862
+r0709.xlsx,population: wards sum == city,True,"1,094,690"
+r0710.xlsx,births: wards sum == city,True,565 vs 565
+r0710.xlsx,deaths: wards sum == city,True,908 vs 908
+r0710.xlsx,population: wards sum == city,True,"1,096,146"
+r0711.xlsx,births: wards sum == city,True,561 vs 561
+r0711.xlsx,deaths: wards sum == city,True,954 vs 954
+r0711.xlsx,population: wards sum == city,True,"1,096,256"
+r0712.xlsx,births: wards sum == city,True,475 vs 475
+r0712.xlsx,deaths: wards sum == city,True,960 vs 960
+r0712.xlsx,population: wards sum == city,True,"1,096,126"
+r0801.xlsx,births: wards sum == city,True,521 vs 521
+r0801.xlsx,deaths: wards sum == city,True,912 vs 912
+r0801.xlsx,population: wards sum == city,True,"1,095,803"
+r0802.xlsx,births: wards sum == city,True,489 vs 489
+r0802.xlsx,deaths: wards sum == city,True,1174 vs 1174
+r0802.xlsx,population: wards sum == city,True,"1,095,116"
+r0803.xlsx,births: wards sum == city,True,415 vs 415
+r0803.xlsx,deaths: wards sum == city,True,917 vs 917
+r0803.xlsx,population: wards sum == city,True,"1,094,402"
+r0804.xlsx,births: wards sum == city,True,482 vs 482
+r0804.xlsx,deaths: wards sum == city,True,992 vs 992
+r0804.xlsx,population: wards sum == city,True,"1,092,151"
+r0805.xlsx,births: wards sum == city,True,529 vs 529
+r0805.xlsx,deaths: wards sum == city,True,840 vs 840
+r0805.xlsx,population: wards sum == city,True,"1,095,561"
+r0806.xlsx,births: wards sum == city,True,490 vs 490
+r0806.xlsx,deaths: wards sum == city,True,819 vs 819
+r0806.xlsx,population: wards sum == city,True,"1,095,419"
+r0807.xlsx,births: wards sum == city,True,533 vs 533
+r0807.xlsx,deaths: wards sum == city,True,807 vs 807
+r0807.xlsx,population: wards sum == city,True,"1,095,363"
+r0808.xlsx,births: wards sum == city,True,535 vs 535
+r0808.xlsx,deaths: wards sum == city,True,877 vs 877
+r0808.xlsx,population: wards sum == city,True,"1,095,473"
+r0809.xlsx,births: wards sum == city,True,537 vs 537
+r0809.xlsx,deaths: wards sum == city,True,894 vs 894
+r0809.xlsx,population: wards sum == city,True,"1,095,420"
+r0810.xlsx,births: wards sum == city,True,527 vs 527
+r0810.xlsx,deaths: wards sum == city,True,911 vs 911
+r0810.xlsx,population: wards sum == city,True,"1,095,286"
+r0811.xlsx,births: wards sum == city,True,518 vs 518
+r0811.xlsx,deaths: wards sum == city,True,1003 vs 1003
+r0811.xlsx,population: wards sum == city,True,"1,095,348"
+r0811.xlsx,2021 births/deaths: monthly sum == printed yearly total,True,"7,381/9,794 vs 7,381/9,794"
+r0811.xlsx,2022 births/deaths: monthly sum == printed yearly total,True,"7,118/10,825 vs 7,118/10,825"
+r0811.xlsx,2023 births/deaths: monthly sum == printed yearly total,True,"6,684/11,239 vs 6,684/11,239"
+r0811.xlsx,2024 births/deaths: monthly sum == printed yearly total,True,"6,278/11,272 vs 6,278/11,272"
+r0811.xlsx,2025 births/deaths: monthly sum == printed yearly total,True,"6,301/11,208 vs 6,301/11,208"
+5-years_h1504.xlsx,age groups sum to totals; wards sum to city,True,"991,169"
+5-years_h1510.xlsx,age groups sum to totals; wards sum to city,True,"998,608"
+5-years_h1604.xlsx,age groups sum to totals; wards sum to city,True,"994,232"
+5-years_h1610.xlsx,age groups sum to totals; wards sum to city,True,"1,001,201"
+5-years_h1704.xlsx,age groups sum to totals; wards sum to city,True,"997,199"
+5-years_h1710.xlsx,age groups sum to totals; wards sum to city,True,"1,003,399"
+5-years_h1804.xlsx,age groups sum to totals; wards sum to city,True,"998,402"
+5-years_h1810.xlsx,age groups sum to totals; wards sum to city,True,"1,005,881"
+5-years_h1904.xlsx,age groups sum to totals; wards sum to city,True,"1,001,387"
+5-years_h1910.xlsx,age groups sum to totals; wards sum to city,True,"1,007,437"
+5-years_h2004.xlsx,age groups sum to totals; wards sum to city,True,"1,003,733"
+5-years_h2010.xlsx,age groups sum to totals; wards sum to city,True,"1,009,709"
+5-years_h2104.xlsx,age groups sum to totals; wards sum to city,True,"1,006,522"
+5-years_h2110.xlsx,age groups sum to totals; wards sum to city,True,"1,012,000"
+5-years_h2204.xlsx,age groups sum to totals; wards sum to city,True,"1,010,256"
+5-years_h2210.xlsx,age groups sum to totals; wards sum to city,True,"1,015,362"
+5-years_h2304.xlsx,age groups sum to totals; wards sum to city,True,"1,011,592"
+5-years_h2310.xlsx,age groups sum to totals; wards sum to city,True,"1,019,622"
+5-years_h2404.xlsx,age groups sum to totals; wards sum to city,True,"1,020,241"
+5-years_h2410.xlsx,age groups sum to totals; wards sum to city,True,"1,040,460"
+5-years_h2504.xlsx,age groups sum to totals; wards sum to city,True,"1,038,522"
+5-years_h2510.xlsx,age groups sum to totals; wards sum to city,True,"1,048,094"
+5-years_h2604.xlsx,age groups sum to totals; wards sum to city,True,"1,046,192"
+5-years_h2610.xlsx,age groups sum to totals; wards sum to city,True,"1,052,825"
+5-years_h2704.xlsx,age groups sum to totals; wards sum to city,True,"1,050,296"
+5-years_h2710.xlsx,age groups sum to totals; wards sum to city,True,"1,055,613"
+5-years_h2801.xlsx,age groups sum to totals; wards sum to city,True,"1,056,503"
+5-years_h2804.xlsx,age groups sum to totals; wards sum to city,True,"1,053,304"
+age_5_h2810.xlsx,age groups sum to totals; wards sum to city,True,"1,058,128"
+age_5_h2901.xlsx,age groups sum to totals; wards sum to city,True,"1,058,517"
+age_5_h2904.xlsx,age groups sum to totals; wards sum to city,True,"1,053,717"
+age_5_h2910.xlsx,age groups sum to totals; wards sum to city,True,"1,059,831"
+age_5_h3001.xlsx,age groups sum to totals; wards sum to city,True,"1,060,545"
+age_5_h3004.xlsx,age groups sum to totals; wards sum to city,True,"1,056,602"
+age_5_h3010.xlsx,age groups sum to totals; wards sum to city,True,"1,062,123"
+age_5_h3101.xlsx,age groups sum to totals; wards sum to city,True,"1,062,585"
+age_5_h3104.xlsx,age groups sum to totals; wards sum to city,True,"1,058,689"
+age_5_r0110.xlsx,age groups sum to totals; wards sum to city,True,"1,063,717"
+age_5_r0201.xlsx,age groups sum to totals; wards sum to city,True,"1,064,060"
+age_5_r0204.xlsx,age groups sum to totals; wards sum to city,True,"1,061,177"
+age_5_r0210.xlsx,age groups sum to totals; wards sum to city,True,"1,065,446"
+age_5_r0301.xlsx,age groups sum to totals; wards sum to city,True,"1,065,932"
+age_5_r0304.xlsx,age groups sum to totals; wards sum to city,True,"1,063,169"
+age_5_r0310.xlsx,age groups sum to totals; wards sum to city,True,"1,065,979"
+age_5_r0401.xlsx,age groups sum to totals; wards sum to city,True,"1,065,365"
+age_5_r0404.xlsx,age groups sum to totals; wards sum to city,True,"1,062,285"
+age_5_r0410.xlsx,age groups sum to totals; wards sum to city,True,"1,067,981"
+age_5_r0501.xlsx,age groups sum to totals; wards sum to city,True,"1,067,486"
+age_5_r0504.xlsx,age groups sum to totals; wards sum to city,True,"1,063,262"
+age_5_r0510.xlsx,age groups sum to totals; wards sum to city,True,"1,066,556"
+age_5_r0601.xlsx,age groups sum to totals; wards sum to city,True,"1,066,362"
+age_5_r0604.xlsx,age groups sum to totals; wards sum to city,True,"1,061,450"
+age_5_r0610.xlsx,age groups sum to totals; wards sum to city,True,"1,064,910"
+age_5_r0701.xlsx,age groups sum to totals; wards sum to city,True,"1,064,142"
+age_5_r0704.xlsx,age groups sum to totals; wards sum to city,True,"1,060,008"
+age_5_r0710.xlsx,age groups sum to totals; wards sum to city,True,"1,063,541"
+age_5_r0801.xlsx,age groups sum to totals; wards sum to city,True,"1,063,198"
+age_5_r0804.xlsx,age groups sum to totals; wards sum to city,True,"1,059,546"
+age_5_r0810.xlsx,age groups sum to totals; wards sum to city,True,"1,062,681"
+shoiraisuikeizinkou.xlsx:仙台市,"single-year ages sum to total, 2020–2070",True,51 years
+kusyouraizinkou.xlsx:青葉区,"single-year ages sum to total, 2020–2070",True,51 years
+kusyouraizinkou.xlsx:宮城野区,"single-year ages sum to total, 2020–2070",True,51 years
+kusyouraizinkou.xlsx:若林区,source typo? 2022 0～14歳,False,"summary table prints 24,067; single-year ages give 17,378"
+kusyouraizinkou.xlsx:若林区,"single-year ages sum to total, 2020–2070",True,51 years
+kusyouraizinkou.xlsx:太白区,source typo? 2022 0～14歳,False,"summary table prints 24,067; single-year ages give 29,915"
+kusyouraizinkou.xlsx:太白区,"single-year ages sum to total, 2020–2070",True,51 years
+kusyouraizinkou.xlsx:泉区,source typo? 2022 0～14歳,False,"summary table prints 24,067; single-year ages give 24,536"
+kusyouraizinkou.xlsx:泉区,"single-year ages sum to total, 2020–2070",True,51 years
+projection,2020: city − sum of wards,True,0
+projection,2021: city − sum of wards,True,0
+projection,2022: city − sum of wards,True,0
+projection,2023: city − sum of wards,True,0
+projection,2024: city − sum of wards,True,0
+projection,2025: city − sum of wards,True,0
+projection,2026: city − sum of wards,True,-1
+projection,2027: city − sum of wards,True,0
+projection,2028: city − sum of wards,True,0
+projection,2029: city − sum of wards,True,1
+projection,2030: city − sum of wards,True,0
+projection,2031: city − sum of wards,True,0
+projection,2032: city − sum of wards,True,0
+projection,2033: city − sum of wards,True,1
+projection,2034: city − sum of wards,True,-1
+projection,2035: city − sum of wards,True,1
+projection,2036: city − sum of wards,True,-1
+projection,2037: city − sum of wards,True,1
+projection,2038: city − sum of wards,True,0
+projection,2039: city − sum of wards,True,0
+projection,2040: city − sum of wards,True,0
+projection,2041: city − sum of wards,True,0
+projection,2042: city − sum of wards,True,-1
+projection,2043: city − sum of wards,True,0
+projection,2044: city − sum of wards,True,1
+projection,2045: city − sum of wards,True,0
+projection,2046: city − sum of wards,True,-1
+projection,2047: city − sum of wards,True,0
+projection,2048: city − sum of wards,True,0
+projection,2049: city − sum of wards,True,0
+projection,2050: city − sum of wards,True,1
+projection,2051: city − sum of wards,True,0
+projection,2052: city − sum of wards,True,1
+projection,2053: city − sum of wards,True,0
+projection,2054: city − sum of wards,True,1
+projection,2055: city − sum of wards,True,1
+projection,2056: city − sum of wards,True,0
+projection,2057: city − sum of wards,True,0
+projection,2058: city − sum of wards,True,-1
+projection,2059: city − sum of wards,True,0
+projection,2060: city − sum of wards,True,0
+projection,2061: city − sum of wards,True,-1
+projection,2062: city − sum of wards,True,0
+projection,2063: city − sum of wards,True,1
+projection,2064: city − sum of wards,True,0
+projection,2065: city − sum of wards,True,-1
+projection,2066: city − sum of wards,True,-1
+projection,2067: city − sum of wards,True,-1
+projection,2068: city − sum of wards,True,0
+projection,2069: city − sum of wards,True,-1
+projection,2070: city − sum of wards,True,1

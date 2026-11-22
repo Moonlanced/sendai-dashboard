@@ -1,3 +1,12 @@
+"""Long-run visitors and overnight stays since 1982 (昭和57年), from the city's
+trend workbooks irikomi.xlsx / syukuhaku.xlsx.
+
+Writes data/processed/longrun.csv and checks every overlapping year against
+data/processed/annual.csv (built from the annual PDF reports). Any mismatch of
+more than one person -> non-zero exit.
+
+Run after scripts/extract.py.
+"""
 from __future__ import annotations
 
 import csv

@@ -1,5 +1,7 @@
 # Data dictionary
 
+**Tourism** files are in `data/processed/`; **population** files in `data/processed/population/` (see the end of this page).
+
 All files in `data/processed/` are produced by `scripts/extract.py` from the City of Sendai 「仙台市観光統計基礎データ」 PDFs (editions H23–R7, covering 2007–2025), except longrun.csv (scripts/longrun.py) and excel_crosscheck.csv (scripts/crosscheck_excel.py). Values are counts of people unless noted.
 
 ## annual.csv
@@ -56,3 +58,45 @@ Check: equals annual.csv for every overlapping year (2007–2025), or the run fa
 
 ## excel_crosscheck.csv
 For each report: how many of the values extracted from its PDF for its own year were found in the city's Excel version (values_found / values_checked). Any missing value fails the run. Currently 292 of 292.
+
+---
+
+# Population (`data/processed/population/`, from `scripts/population_extract.py`)
+
+Areas: 仙台市 (city), the five wards (青葉区, 宮城野区, 若林区, 太白区, 泉区), and two sub-areas, 宮城総合支所 (part of 青葉区) and 秋保総合支所 (part of 太白区). Sub-areas are never added to the city total. Every file has `area_jp` and `area_en`.
+
+## pop_monthly.csv
+| Field | Meaning |
+|---|---|
+| date | 1st of the month, 1999-01-01 to latest |
+| population, men, women | 推計人口: the census figure carried forward with monthly registry changes; re-based on each census (October 2005, 2010, 2015, 2020, 2025) |
+| households | Reference only: households are defined differently in the census and the registry |
+
+Checks: every file yields the city and all 5 wards; total = men + women; wards add up to the city; no month missing or duplicated.
+
+## vitals_monthly.csv
+| Field | Meaning |
+|---|---|
+| month | The month the births and deaths happened (each file reports the previous month) |
+| births, deaths | Japanese + foreign residents where the file reports both (foreign residents from 2010) |
+
+Checks: wards add up to the city for births and for deaths; summed per year they equal the yearly table printed in the newest file (2021–2025).
+
+## age_groups.csv / age3.csv
+| Field | Meaning |
+|---|---|
+| date | 2003-04-01 to latest, 2–3 dates a year |
+| age_group | 0~4 … 95~99, 100歳以上 (age_groups.csv) |
+| total, age_0_14, age_15_64, age_65_plus | age3.csv, derived from the 5-year groups |
+
+Source: the resident registry (住民基本台帳), so totals differ slightly from 推計人口. Foreign residents included from July 2012. City and wards only (no sub-areas). Checks: groups add up to each total; wards add up to the city.
+
+## projection.csv
+| Field | Meaning |
+|---|---|
+| year | 2020 (census) to 2070 |
+| total, age_0_14, age_15_64, age_65_plus | The city's projection (令和4年推計). Age groups are summed from the single-year ages, not taken from the city's summary table (which has an error in 2022, see checks.csv) |
+| kind | census (2020) or projection |
+
+## checks.csv
+Every check run on every file, with passed True/False and a detail. Rows with passed=False are errors found in the source: currently four (Miyagino's natural change in the January 2010 file; the same 2022 under-15 figure printed for three wards in the projection summary table).

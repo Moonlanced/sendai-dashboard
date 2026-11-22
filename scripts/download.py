@@ -1,3 +1,14 @@
+"""Download the City of Sendai tourism statistics (仙台市観光統計).
+
+Source page: https://www.city.sendai.jp/kankokikaku/toukei/toukei.html
+
+Usage:
+    python scripts/download.py          # the annual reports the pipeline parses -> data/raw/
+    python scripts/download.py --all    # also the Excel versions (used by crosscheck_excel.py) and the
+                                        # long-run series since 1982 (longrun.py) -> data/raw/archive/
+
+Fails loudly (non-zero exit) if any file cannot be fetched or isn't the expected type.
+"""
 from __future__ import annotations
 
 import ssl

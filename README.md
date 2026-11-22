@@ -1,63 +1,72 @@
-# 仙台市 観光回復ダッシュボード / Sendai Tourism Recovery Dashboard
+# 仙台市 都市ダッシュボード / Sendai City Dashboard
 
-**年ごとにバラバラに公開される行政統計を、検証済みの時系列データと意思決定に使えるダッシュボードに変える。**
-Turning a city's year-by-year statistics reports into one validated time series and a dashboard a decision-maker can use.
+**仙台市が年ごと・月ごとにバラバラに公開している統計を集め、相互に検証し、意思決定に使える形で可視化する。**
+Collecting the statistics the City of Sendai publishes file by file, checking them against each other, and turning them into a dashboard a decision-maker can use.
 
-![Dashboard](docs/screenshot_ja.png)
+**▶ Live dashboard:** (ここにStreamlitのURL / your Streamlit URL here)
+
+![Population page](docs/screenshot_population_ja.png)
+
+## ページ / Pages
+
+| ページ / Page | 問い / Question | データ / Data |
+|---|---|---|
+| 👥 人口 / Population | どの区で人口減少・高齢化が進み、2070年までにどう変わるか / Which wards are shrinking and ageing, and how does that change by 2070? | 推計人口 335か月分（1999–）、年齢別人口（2003–）、将来人口推計（–2070） |
+| 🧳 観光 / Tourism | コロナ前からどこまで回復し、インバウンドの構成はどう変わったか / How far has tourism recovered, and how has the mix of foreign visitors changed? | 観光統計 15冊（2007–）、長期推移（1982–） |
 
 ## 課題 / Problem
-仙台市の観光統計は年1回、1冊ずつ（PDF・Excel）公開されています。国・地域別の外国人宿泊者や居住地別の構成など有用なデータがある一方、各版がそれぞれ直近数年分のみを掲載しているため、長期で比較するには毎年の報告書をつなぎ合わせ、版ごとの数値の食い違いを確認する必要があります。
+市の統計は1か月・1年ごとに別々のファイル（PDF・Excel）で公開されています。各ファイルは直近の数値しか載せておらず、年によって表のレイアウトも異なります。長期の推移や区ごとの比較を見るには、数百のファイルをつなぎ合わせ、ファイル間の食い違いを確認する必要があります。
 
-Sendai publishes its tourism statistics once a year as a separate report (PDF and Excel). Each edition covers only the last few years, so building a long, consistent series means stitching 15 reports together and checking them against each other.
+The city publishes each month or year as a separate file, each covering only recent figures, with layouts that change over the years. Seeing long-run trends or comparing wards means stitching hundreds of files together and checking them against each other.
 
-**想定ユーザー:** 市の観光担当者。「どの市場に次年度の予算を重点配分すべきか」を根拠をもって説明したい。
-**Persona:** a city tourism planner who must justify where next year's promotion budget goes.
-
-## 問い / Questions
-1. コロナ前（2019年）の水準にどこまで回復したか / How far has tourism recovered against 2019?
-2. インバウンドの国・地域構成はどう変わったか / How has the mix of foreign markets changed?
-3. 宿泊客はどこから来ているか / Where do overnight guests live?
-
-詳細は [docs/requirements.md](docs/requirements.md)（ペルソナ、ユーザーストーリー、KPI定義、スコープ外）。
-
-## アプローチ / Approach
-1. **抽出 / Extract:** 15冊の年次報告書（平成23年版〜令和7年版）のPDFから表をPythonで構造化（`scripts/extract.py`）。1982年からの長期推移表も取り込み（`scripts/longrun.py`）。
-2. **検証 / Validate:** 各表の合計値と照合し、不一致があれば処理を停止。報告書間で重複する年の数値を突き合わせ（改訂は `revisions.csv`）、記載された前年比も実数から再計算して照合（誤記は `quality_flags.csv`）。
-   Every table is checked against its published total; any mismatch stops the run. Overlapping years across reports are compared, and every printed year-on-year % is recalculated from the counts. Revisions and source typos are logged, never silently fixed.
-   さらに、市が公開しているExcel版（`scripts/crosscheck_excel.py`）と長期推移表の3系統で照合。 / Every value is also checked against the city's Excel versions and the 1982– trend series.
-3. **可視化 / Visualise:** Streamlitで日英切り替え可能なダッシュボードを構築（`app/dashboard.py`）。
-4. **自動更新 / Automate:** GitHub Actionsで毎月データを再取得・再検証。
+**想定ユーザー:** 市の企画担当者。人口や観光の変化を、根拠のある数字で説明したい。
+**Persona:** a city planner who has to explain changes in population and tourism with numbers that hold up.
 
 ## 主な結果 / Key findings
-- 2025年は入込数・宿泊者数とも **1982年以降の最高値** / 2025 is the highest year since records began in 1982.
-- 2019年比：入込数 **120%**（2024年から横ばい）、宿泊者数 **109%**、外国人宿泊者数 **229%** / Against 2019: visits 120% (flat), overnight stays 109%, foreign guests 229%.
-- 作並を含む宮城地区の宿泊者はコロナ前から長期減少（2007年30.4万→2025年15.2万）/ Stays in the Sakunami area have been falling since long before COVID (304k in 2007 → 152k in 2025).
-- 宿泊客の宮城県内比率は **31.5%→14.5%**（2010→2025）/ Guests from within Miyagi fell from 31.5% to 14.5% (2010→2025).
-- 宿泊客の **5人に1人が海外**（12.4%→21.6%）。台湾は一貫して約半分。タイは **1.3倍** にとどまる / One in five guests now comes from overseas; Taiwan stays at about half of foreign guests; Thailand grew only 1.3×.
 
-全文は [docs/insights.md](docs/insights.md)。
+**人口 / Population** ([全文 / full](docs/insights_population.md))
+- 人口は2022年11月がピーク（1,099,547人）。2017年から自然減で、出生は1999年比 **−37%** / Population peaked in Nov 2022; deaths have outnumbered births since 2017, and births are down 37% since 1999.
+- 泉区は2003年に最も若い区（65歳以上12.0%）→ 現在は最も高齢（30.2%）。2070年には人口が2020年の **52%** の見込み / Izumi went from youngest to oldest ward and is projected to shrink to 52% of its 2020 size by 2070.
 
-![Foreign markets](docs/screenshot_markets_en.png)
+**観光 / Tourism** ([全文 / full](docs/insights.md))
+- 2025年は入込数・宿泊者数とも **1982年以降の最高値**。外国人宿泊者数は2019年比 **229%** / 2025 is the highest year since 1982; foreign guests are at 229% of 2019.
+- 作並を含む宮城地区の宿泊者はコロナ前から長期減少（2007年30.4万→2025年15.2万）/ Stays in the Sakunami area have been falling since long before COVID.
+
+## アプローチ / Approach
+1. **収集 / Collect:** 市の索引ページを読み、リンクされたファイルをすべて取得（ファイル名の不規則さに依存しない）/ Read the city's own index pages and fetch every linked file, so irregular file names don't matter.
+2. **抽出 / Extract:** 列は位置ではなく構造で特定（総数＝男＋女、自然増加数＝出生−死亡）。レイアウトが変わっても読める / Columns are found by structure, not position (total = men + women; natural change = births − deaths), so layout changes don't break the parser.
+3. **検証 / Validate:** 合計値・ファイル間・Excel版・市の年次表と照合。食い違いがあれば処理を停止。原資料の誤記は修正せず記録 / Every figure is checked against published totals, other files, the Excel versions and the city's yearly tables. Any mismatch stops the run; errors in the source are logged, never silently fixed.
+4. **可視化 / Visualise:** Streamlit、日英切り替え / Streamlit, Japanese and English.
+5. **自動更新 / Automate:** GitHub Actionsで毎月再取得・再検証 / Re-fetched and re-checked monthly by GitHub Actions.
 
 ## 品質 / Data quality
-- 15冊の報告書間で重複する年の数値がすべて一致（改訂0件）。Excel版とも292項目すべて一致。長期推移表とも重複19年すべて一致 / All overlapping years agree across the 15 reports (0 revisions); all 292 values match the city's Excel files; the 1982– series matches for all 19 overlapping years.
-- 原資料の前年比の誤記を5件検出（例：令和7年版の2024年入込数 記載131.3%→実数から103.8%）/ Found 5 errors in printed year-on-year % in the source (e.g. the 2025 edition prints 2024 visitors as 131.3%; the counts give 103.8%).
-- 1996年・2010年に集計方法の変更あり。長期比較は参考値 / Counting methods changed in 1996 and 2010; long-run comparisons across them are indicative.
-- 2019年は外国人の27%が「その他・不明」のため、構成比は不明分を除いて比較 / 27% of 2019 foreign stays are "unknown", so shares exclude it.
-- 記述統計のみ。因果は主張しない / Descriptive only; no causal claims.
+- 観光：15冊の報告書・Excel版（292項目）・長期推移表（重複19年）がすべて一致 / Tourism: 15 reports, their Excel versions (292 values) and the long-run series all agree.
+- 人口：335か月すべてで区の合計＝市、総数＝男＋女。月別出生・死亡の年合計が市の年次表と完全一致 / Population: every month checked; yearly births and deaths match the city's own table exactly.
+- 原資料の誤記を **9件** 検出・記録（観光5件、人口4件）/ **9 errors** found in the source and logged (tourism 5, population 4).
 
-各項目の定義は [docs/data-dictionary.md](docs/data-dictionary.md)、設計判断は [docs/decisions.md](docs/decisions.md)、今後の計画は [docs/roadmap.md](docs/roadmap.md)。
+詳細 / Details: [data dictionary](docs/data-dictionary.md) · [decisions](docs/decisions.md) · [roadmap](docs/roadmap.md) · [requirements](docs/requirements.md)
 
 ## 実行方法 / Run it
 ```bash
 pip install -r requirements.txt
-python scripts/download.py --all   # 仙台市サイトからPDF・Excel・長期推移表を取得
-python scripts/extract.py          # PDFから抽出・検証 → data/processed/*.csv
-python scripts/longrun.py          # 1982年からの長期推移を取り込み、報告書と照合
-python scripts/crosscheck_excel.py # Excel版と照合
+
+# 観光 / tourism
+python scripts/download.py --all     # PDF・Excel・長期推移表
+python scripts/extract.py
+python scripts/longrun.py
+python scripts/crosscheck_excel.py
+
+# 人口 / population
+python scripts/population_download.py   # 約400ファイル、5分程度 / ~400 files, about 5 minutes
+python scripts/population_extract.py
+
 streamlit run app/dashboard.py
 ```
 
-## 出典 / Source
-仙台市観光戦略課「仙台市観光統計基礎データ」（平成23年〜令和7年）および「観光客入込数・宿泊者数の推移」を加工して作成。
-https://www.city.sendai.jp/kankokikaku/toukei/toukei.html
+## 出典 / Sources
+- 仙台市観光戦略課「仙台市観光統計基礎データ」（平成23年〜令和7年）、「観光客入込数・宿泊者数の推移」
+  https://www.city.sendai.jp/kankokikaku/toukei/toukei.html
+- 仙台市「推計人口」「住民基本台帳による区・年齢（5歳階級）別人口」「仙台市の将来人口推計（令和4年推計）」
+  https://www.city.sendai.jp/chosatoke/shise/toke/index.html
+
+いずれも作成者が加工して作成。将来推計は仙台市によるもの。 / All processed by the author; projections are the city's.

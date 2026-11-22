@@ -25,10 +25,14 @@ jobs:
         run: python scripts/longrun.py
       - name: Cross-check against the Excel versions (fails on any missing value)
         run: python scripts/crosscheck_excel.py
+      - name: Population files (reads the city's index pages; fails if a page changes)
+        run: python scripts/population_download.py
+      - name: Population extract and checks (fails on any mismatch)
+        run: python scripts/population_extract.py
       - name: Commit if the data changed
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
-          git add data/processed
+          git add data/processed data/raw/population
           git diff --cached --quiet || git commit -m "data: monthly refresh"
           git push

@@ -1,3 +1,13 @@
+"""Cross-check the PDF extraction against the city's Excel version of each report.
+
+The Excel layouts differ between years, so instead of parsing them this checks,
+for each report, that every number extracted from that same report's PDF for its
+own year (visitors, overnight stays, each district where printed, foreign guests,
+each country) also appears somewhere in the matching workbook (±1 for rounding).
+
+Writes data/processed/excel_crosscheck.csv. Any missing value -> non-zero exit.
+Run after scripts/extract.py.
+"""
 from __future__ import annotations
 
 import csv

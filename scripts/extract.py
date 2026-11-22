@@ -1,3 +1,23 @@
+"""Extract tables from the City of Sendai 観光統計 PDFs into tidy CSVs.
+
+Reads every data/raw/*.pdf, parses sections 1-3 (visitors, overnight stays,
+foreign overnight guests by country, domestic origin shares), checks the
+numbers, and writes data/processed/*.csv.
+
+Checks (any failure -> non-zero exit, nothing written):
+  * district stays add up to the published 計
+  * countries add up to the published 総計
+  * the country 総計 equals the foreign-guest total in the same report
+  * origin shares add up to 100% (±0.3, the reports round to 0.1)
+  * every header year parses and matches the report year
+
+Also compares each printed 前年比 with the ratio of the printed counts and logs
+any mismatch to data/processed/quality_flags.csv (a typo in the source, reported, not fixed).
+
+When two reports give different values for the same year (later revisions),
+the newest report wins and every difference is written to
+data/processed/revisions.csv and printed. Revisions are expected; hiding them is not.
+"""
 from __future__ import annotations
 
 import csv
