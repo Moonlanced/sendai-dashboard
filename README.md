@@ -1,5 +1,8 @@
 # 仙台市 観光回復ダッシュボード / Sendai Tourism Recovery Dashboard
+
 **▶ Live dashboard: https://sendai-tourism.streamlit.app**
+
+
 **年ごとにバラバラに公開される行政統計を、検証済みの時系列データと意思決定に使えるダッシュボードに変える。**
 Turning a city's year-by-year statistics reports into one validated time series and a dashboard a decision-maker can use.
 
