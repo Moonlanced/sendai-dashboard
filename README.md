@@ -3,7 +3,7 @@
 **仙台市が年ごと・月ごとにバラバラに公開している統計を集め、相互に検証し、意思決定に使える形で可視化する。**
 Collecting the statistics the City of Sendai publishes file by file, checking them against each other, and turning them into a dashboard a decision-maker can use.
 
-**▶ Live dashboard:** (ここにStreamlitのURL / your Streamlit URL here)
+**▶ Live dashboard:** https://sendai-tourism-dashboard.streamlit.app/
 
 ![Population page](docs/screenshot_population_ja.png)
 
