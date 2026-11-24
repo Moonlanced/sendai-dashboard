@@ -5,6 +5,7 @@ Each page lives in its own module and reads the CSVs its pipeline produces:
   tourism.py     <- scripts/extract.py, longrun.py, crosscheck_excel.py
   population.py  <- scripts/population_extract.py
   mobility.py    <- scripts/mobility_extract.py
+  disaster.py    <- scripts/disaster_extract.py
 """
 from __future__ import annotations
 
@@ -14,6 +15,7 @@ from pathlib import Path
 import streamlit as st
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+import disaster  # noqa: E402
 import mobility  # noqa: E402
 import population  # noqa: E402
 import tourism  # noqa: E402
@@ -27,6 +29,7 @@ PAGES = {
     "home": {"ja": "ホーム", "en": "Home"},
     "population": {"ja": "人口", "en": "Population"},
     "mobility": {"ja": "交通", "en": "Mobility"},
+    "disaster": {"ja": "防災", "en": "Disaster preparedness"},
     "tourism": {"ja": "観光", "en": "Tourism"},
 }
 
@@ -51,8 +54,8 @@ def home() -> None:
                 f"{tour.loc[y, 'foreign_stays'] / tour.loc[2019, 'foreign_stays'] * 100:.0f}% " + {"ja": "2019年比", "en": "of 2019"}[lang],
                 delta_color="off")
     st.markdown(
-        {"ja": "**ページ**\n- **人口**：どの区で人口減少・高齢化が進み、2070年までにどう変わるか\n- **交通**：コロナ後、市民の移動と空の玄関口はどこまで戻ったか\n- **観光**：コロナ前からどこまで回復し、インバウンドの構成はどう変わったか",
-         "en": "**Pages**\n- **Population**: which wards are shrinking and ageing, and how that changes by 2070\n- **Mobility**: how far travel in the city and through the airport has come back since COVID\n- **Tourism**: how far tourism has recovered, and how the mix of foreign visitors changed"}[lang])
+        {"ja": "**ページ**\n- **人口**：どの区で人口減少・高齢化が進み、2070年までにどう変わるか\n- **交通**：コロナ後、市民の移動と空の玄関口はどこまで戻ったか\n- **防災**：災害の種類ごとに、どこへ避難できるか。津波に対応した場所はどこにあるか\n- **観光**：コロナ前からどこまで回復し、インバウンドの構成はどう変わったか",
+         "en": "**Pages**\n- **Population**: which wards are shrinking and ageing, and how that changes by 2070\n- **Mobility**: how far travel in the city and through the airport has come back since COVID\n- **Disaster preparedness**: where people can go for each kind of disaster, and where the tsunami sites are\n- **Tourism**: how far tourism has recovered, and how the mix of foreign visitors changed"}[lang])
 
 
 def main() -> None:
@@ -63,6 +66,7 @@ def main() -> None:
         st.Page(home, title=PAGES["home"][lang], icon="🏠", default=True),
         st.Page(population.render, title=PAGES["population"][lang], icon="👥", url_path="population"),
         st.Page(mobility.render, title=PAGES["mobility"][lang], icon="🚇", url_path="mobility"),
+        st.Page(disaster.render, title=PAGES["disaster"][lang], icon="🛟", url_path="disaster"),
         st.Page(tourism.render, title=PAGES["tourism"][lang], icon="🧳", url_path="tourism"),
     ])
     nav.run()

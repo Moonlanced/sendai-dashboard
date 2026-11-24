@@ -25,9 +25,12 @@ Create these as GitHub Issues, one Milestone per theme.
 - [ ] Taxis, private buses (宮城交通) and expressway interchanges (also in the yearbook)
 - [ ] Monthly ridership for COVID detail
 
-## Milestone: Disaster preparedness (防災)
-- [ ] Shelters and tsunami evacuation areas from the city's open data
-- [ ] Shelter capacity per ward against ward population (map)
+## Milestone: Disaster preparedness (防災) ✅
+- [x] Shelters and emergency evacuation sites from GSI, with per-hazard designations, on a map
+- [x] Sites per 10,000 residents by ward, hazard × ward grid, tsunami site types
+- [ ] Ward boundaries (e-Stat) to assign the expressway staircases and draw ward areas
+- [ ] Compare Sendai with other Miyagi municipalities (04000 files already downloaded)
+- [ ] Tsunami inundation area overlay (宮城県 津波浸水想定)
 
 ## Milestone: Later
 - [ ] Land prices (国交省 不動産情報ライブラリ API)

@@ -33,6 +33,8 @@ jobs:
         run: python scripts/mobility_download.py
       - name: Mobility extract and checks (fails if a table can't be read)
         run: python scripts/mobility_extract.py
+      - name: Disaster extract and checks (GSI files are downloaded by hand; this re-checks them)
+        run: python scripts/disaster_extract.py
       - name: Commit if the data changed
         run: |
           git config user.name "github-actions"

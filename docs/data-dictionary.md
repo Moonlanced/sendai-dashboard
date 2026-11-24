@@ -142,3 +142,22 @@ Source: 国土交通省 「空港管理状況調書」 暦年・年度別 (10-ye
 
 ## revisions.csv / checks.csv
 As for population: every value a newer edition changed, and every check with passed True / False / "explained" plus the reason.
+
+---
+
+# Disaster preparedness (`data/processed/disaster/`, from `scripts/disaster_extract.py`)
+
+Source: 国土地理院 「指定緊急避難場所・指定避難所データ」 (出典：国土地理院), Sendai = municipality code 04100, downloaded by hand from https://hinanmap.gsi.go.jp/ after agreeing to the terms (`data/raw/disaster/GSI_TERMS.txt`). The 04000 files (all of Miyagi) are kept for a later comparison with other municipalities.
+
+## sites.csv
+| Field | Meaning |
+|---|---|
+| kind | shelter (指定避難所), shelter_welfare (指定避難所 for people arranged in advance), emergency_site (指定緊急避難場所) |
+| id, name, address | GSI common ID, name and address as registered by the city |
+| ward_jp / ward_en | Taken from the address; 区不明 for the five expressway staircases with no ward in the address |
+| lat, lon | Coordinates |
+| flood … volcano | 1 if the emergency site is designated for that disaster type (empty for shelters) |
+| notes | 備考 for sites (e.g. 2階以上 = upper floors only) or the intake conditions for welfare shelters |
+
+## ward_summary.csv
+Per ward: population (latest October 1 推計人口), general and welfare shelters, emergency sites in total and per disaster type, and shelters / sites per 10,000 residents. There's no capacity field anywhere in the source.

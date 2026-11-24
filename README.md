@@ -13,6 +13,7 @@ Collecting the statistics the City of Sendai publishes file by file, checking th
 |---|---|---|
 | 👥 人口 / Population | どの区で人口減少・高齢化が進み、2070年までにどう変わるか / Which wards are shrinking and ageing, and how does that change by 2070? | 推計人口 335か月分（1999–）、年齢別人口（2003–）、将来人口推計（–2070） |
 | 🚇 交通 / Mobility | コロナ後、市民の移動と空の玄関口はどこまで戻ったか / How far have travel in the city and through the airport come back since COVID? | 市営バス・地下鉄（2006年度–）、JR各駅・地下鉄駅別（2007年度–）、仙台空港（2007–） |
+| 🛟 防災 / Disaster preparedness | 災害の種類ごとに、どこへ避難できるか。津波に対応した場所はどこにあるか / Where can people go for each kind of disaster, and where are the tsunami sites? | 指定避難所231・指定緊急避難場所314（国土地理院） |
 | 🧳 観光 / Tourism | コロナ前からどこまで回復し、インバウンドの構成はどう変わったか / How far has tourism recovered, and how has the mix of foreign visitors changed? | 観光統計 15冊（2007–）、長期推移（1982–） |
 
 ## 課題 / Problem
@@ -32,6 +33,10 @@ The city publishes each month or year as a separate file, each covering only rec
 **交通 / Mobility** ([全文 / full](docs/insights_mobility.md))
 - 地下鉄は2024年度に過去最多（2019年度比102%）、市営バスはコロナ前から長期減少（2014年度比77%）/ The subway set a record in FY2024; city buses are at 77% of FY2014.
 - 仙台空港は2025年に過去最多の397万人、国際線は2019年比 **160%** / Sendai Airport had its busiest year in 2025; international passengers are at 160% of 2019.
+
+**防災 / Disaster preparedness** ([全文 / full](docs/insights_disaster.md))
+- 津波に対応した避難場所82か所は宮城野区・若林区に集中し、62か所は上階・屋上への垂直避難 / The 82 tsunami sites are concentrated in Miyagino and Wakabayashi; 62 mean going to upper floors or a roof.
+- 人口あたりの避難所は泉区が最多、若林区が最少 / Izumi has the most shelters per resident, Wakabayashi the fewest.
 
 **観光 / Tourism** ([全文 / full](docs/insights.md))
 - 2025年は入込数・宿泊者数とも **1982年以降の最高値**。外国人宿泊者数は2019年比 **229%** / 2025 is the highest year since 1982; foreign guests are at 229% of 2019.
@@ -70,6 +75,9 @@ python scripts/population_extract.py
 python scripts/mobility_download.py     # 統計書15冊・交通局・国交省 / yearbook, transport bureau, ministry
 python scripts/mobility_extract.py
 
+# 防災 / disaster (CSVs downloaded by hand from hinanmap.gsi.go.jp after agreeing to GSI's terms)
+python scripts/disaster_extract.py
+
 streamlit run app/dashboard.py
 ```
 
@@ -81,5 +89,6 @@ streamlit run app/dashboard.py
 - 仙台市統計書「交通・運輸・通信」（平成23年版〜令和7年版） https://www.city.sendai.jp/chosatoke/shise/toke/tokesho/index.html
 - 仙台市交通局「乗車人員一覧」 https://www.kotsu.city.sendai.jp/subway/joushajinin/
 - 国土交通省「空港管理状況調書」 https://www.mlit.go.jp/koku/15_bf_000185.html
+- 出典：国土地理院「指定緊急避難場所・指定避難所データ」 https://www.gsi.go.jp/bousaichiri/hinanbasho.html （最新の状況は仙台市に確認のこと / check the City of Sendai for the current situation）
 
 いずれも作成者が加工して作成。将来推計は仙台市によるもの。 / All processed by the author; projections are the city's.

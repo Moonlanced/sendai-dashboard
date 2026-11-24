@@ -1,0 +1,7 @@
+ward_jp,ward_en,population,shelters,welfare_shelters,emergency_sites,sites_flood,sites_landslide,sites_storm_surge,sites_earthquake,sites_tsunami,sites_large_fire,sites_inland_flood,sites_volcano,shelters_per_10k,sites_per_10k
+青葉区,Aoba,316652,50,9,71,50,50,0,71,0,2,50,0,1.58,2.24
+宮城野区,Miyagino,193537,34,6,86,33,33,0,45,51,2,33,0,1.76,4.44
+若林区,Wakabayashi,143028,20,4,43,20,20,0,32,21,1,20,0,1.4,3.01
+太白区,Taihaku,237785,44,8,53,40,40,0,53,5,2,40,0,1.85,2.23
+泉区,Izumi,204284,47,9,56,46,46,0,56,0,1,46,0,2.3,2.74
+区不明,No ward in address,,0,0,5,0,0,0,0,5,0,0,0,,
