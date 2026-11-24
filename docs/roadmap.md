@@ -17,10 +17,13 @@ Create these as GitHub Issues, one Milestone per theme.
 - [x] Multi-page app with a home page
 - [x] Insights write-up
 
-## Milestone: Mobility
-- [ ] Subway and bus ridership (仙台市統計書, 交通)
-- [ ] Sendai Airport passengers, domestic and international
-- [ ] Link international flights to foreign guests on the tourism page
+## Milestone: Mobility ✅
+- [x] City bus and subway ridership FY2006– from 15 yearbook editions, matched by table title
+- [x] JR stations and subway stations, FY2007–
+- [x] Sendai Airport passengers 2007– from 10 ministry workbooks, cross-checked
+- [x] Link international passengers to foreign overnight stays on the tourism page
+- [ ] Taxis, private buses (宮城交通) and expressway interchanges (also in the yearbook)
+- [ ] Monthly ridership for COVID detail
 
 ## Milestone: Disaster preparedness (防災)
 - [ ] Shelters and tsunami evacuation areas from the city's open data

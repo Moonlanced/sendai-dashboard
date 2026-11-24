@@ -100,3 +100,45 @@ Source: the resident registry (住民基本台帳), so totals differ slightly fr
 
 ## checks.csv
 Every check run on every file, with passed True/False and a detail. Rows with passed=False are errors found in the source: currently four (Miyagino's natural change in the January 2010 file; the same 2022 under-15 figure printed for three wards in the projection summary table).
+
+---
+
+# Mobility (`data/processed/mobility/`, from `scripts/mobility_extract.py`)
+
+## transit_fy.csv
+| Field | Meaning |
+|---|---|
+| fiscal_year | April–March; FY2024 = April 2024–March 2025. FY2006–latest |
+| mode | bus (市営バス, including chartered) or subway (地下鉄, both lines) |
+| passengers | 乗車人員 for the year, from the 仙台市統計書 table 「市営バス及び地下鉄」 |
+| source_edition | The newest yearbook edition the value was taken from |
+
+Check: passengers ÷ days in the fiscal year = the printed daily average (±1). Exceptions explained in checks.csv.
+
+## jr_stations_fy.csv
+| Field | Meaning |
+|---|---|
+| fiscal_year | FY2007–latest (earlier years use different definitions) |
+| station | Every JR station in Sendai, 総数 (total, excluding Shinkansen), and 新幹線（仙台駅） (Shinkansen at Sendai Station, listed separately) |
+| daily_boardings | Average daily boardings |
+
+Check: stations add up to 総数 (FY2008 on; the FY2007 total includes unmanned stations, per the table's footnote).
+
+## subway_stations_fy.csv
+| Field | Meaning |
+|---|---|
+| fiscal_year, line, station | FY2007–latest, 南北線 / 東西線 (from December 2015), station; 仙台（乗換） = transfers at Sendai |
+| boardings | Boardings for the year, from 交通局 「乗車人員一覧」 |
+
+Check: stations (with transfers) add up to each line's 総数. Not directly comparable with transit_fy.csv, which uses the bureau's ridership figure.
+
+## airport_cy.csv
+| Field | Meaning |
+|---|---|
+| year | Calendar year, 2007–latest |
+| domestic, international, total | Boarding + alighting passengers at Sendai Airport. International includes Japanese residents travelling abroad |
+
+Source: 国土交通省 「空港管理状況調書」 暦年・年度別 (10-year workbooks). Checks: boarding + alighting (+ transit) = subtotal; domestic + international = total; overlapping years compared across workbooks.
+
+## revisions.csv / checks.csv
+As for population: every value a newer edition changed, and every check with passed True / False / "explained" plus the reason.
