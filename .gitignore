@@ -2,3 +2,6 @@ __pycache__/
 .venv/
 *.pyc
 .DS_Store
+# re-downloaded by scripts/landprice_download.py (~120 MB)
+data/raw/landprice/
+data/raw/boundaries/

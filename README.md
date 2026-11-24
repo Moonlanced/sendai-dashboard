@@ -3,7 +3,7 @@
 **仙台市が年ごと・月ごとにバラバラに公開している統計を集め、相互に検証し、意思決定に使える形で可視化する。**
 Collecting the statistics the City of Sendai publishes file by file, checking them against each other, and turning them into a dashboard a decision-maker can use.
 
-**▶ Live dashboard:** (ここにStreamlitのURL / your Streamlit URL here)
+**▶ Live dashboard:** https://sendai-tourism-dashboard.streamlit.app/
 
 ![Population page](docs/screenshot_population_ja.png)
 
@@ -14,6 +14,7 @@ Collecting the statistics the City of Sendai publishes file by file, checking th
 | 👥 人口 / Population | どの区で人口減少・高齢化が進み、2070年までにどう変わるか / Which wards are shrinking and ageing, and how does that change by 2070? | 推計人口 335か月分（1999–）、年齢別人口（2003–）、将来人口推計（–2070） |
 | 🚇 交通 / Mobility | コロナ後、市民の移動と空の玄関口はどこまで戻ったか / How far have travel in the city and through the airport come back since COVID? | 市営バス・地下鉄（2006年度–）、JR各駅・地下鉄駅別（2007年度–）、仙台空港（2007–） |
 | 🛟 防災 / Disaster preparedness | 災害の種類ごとに、どこへ避難できるか。津波に対応した場所はどこにあるか / Where can people go for each kind of disaster, and where are the tsunami sites? | 指定避難所231・指定緊急避難場所314（国土地理院） |
+| 🏘️ 地価 / Land prices | どこの地価が上がり、どこが止まっているか / Where are land prices rising, and where have they stalled? | 地価公示 306地点（1983–2026）、区の境界（国土数値情報） |
 | 🧳 観光 / Tourism | コロナ前からどこまで回復し、インバウンドの構成はどう変わったか / How far has tourism recovered, and how has the mix of foreign visitors changed? | 観光統計 15冊（2007–）、長期推移（1982–） |
 
 ## 課題 / Problem
@@ -38,6 +39,10 @@ The city publishes each month or year as a separate file, each covering only rec
 - 津波に対応した避難場所82か所は宮城野区・若林区に集中し、62か所は上階・屋上への垂直避難 / The 82 tsunami sites are concentrated in Miyagino and Wakabayashi; 62 mean going to upper floors or a roof.
 - 人口あたりの避難所は泉区が最多、若林区が最少 / Izumi has the most shelters per resident, Wakabayashi the fewest.
 
+**地価 / Land prices** ([全文 / full](docs/insights_landprice.md))
+- 2012年を底に14年連続上昇。住宅地は1991年ピークの13%下まで戻り、商業地はピークの約34% / Rising for 14 years since 2012: residential is 13% below its 1991 peak, commercial at about 34% of its peak.
+- 人口が減った泉区・宮城野区でも住宅地は5年で34〜36%上昇。下落は泉区の3地点のみ / Residential land rose 34–36% in five years even in the wards losing population; only three points (all in Izumi) fell in 2026.
+
 **観光 / Tourism** ([全文 / full](docs/insights.md))
 - 2025年は入込数・宿泊者数とも **1982年以降の最高値**。外国人宿泊者数は2019年比 **229%** / 2025 is the highest year since 1982; foreign guests are at 229% of 2019.
 - 作並を含む宮城地区の宿泊者はコロナ前から長期減少（2007年30.4万→2025年15.2万）/ Stays in the Sakunami area have been falling since long before COVID.
@@ -53,6 +58,7 @@ The city publishes each month or year as a separate file, each covering only rec
 - 観光：15冊の報告書・Excel版（292項目）・長期推移表（重複19年）がすべて一致 / Tourism: 15 reports, their Excel versions (292 values) and the long-run series all agree.
 - 人口：335か月すべてで区の合計＝市、総数＝男＋女。月別出生・死亡の年合計が市の年次表と完全一致 / Population: every month checked; yearly births and deaths match the city's own table exactly.
 - 交通：372件の検証で説明のつかない不一致0件。15冊の統計書の重複年を照合し、改訂1件を記録 / Mobility: 372 checks, none unexplained; overlapping years compared across 15 yearbook editions, one revision logged.
+- 地価：2016年版・2006年版で公表された価格と2026年版の過去価格5,306件が完全一致、全地点が区の境界・住所と一致 / Land prices: 5,306 prices published in 2016 and 2006 match the 2026 file exactly; every point matches its ward boundary and address.
 - 原資料の誤記を **10件** 検出・記録（観光5件、人口4件、交通1件）/ **10 errors** found in the source and logged (tourism 5, population 4, mobility 1).
 
 詳細 / Details: [data dictionary](docs/data-dictionary.md) · [decisions](docs/decisions.md) · [roadmap](docs/roadmap.md) · [requirements](docs/requirements.md)
@@ -75,7 +81,11 @@ python scripts/population_extract.py
 python scripts/mobility_download.py     # 統計書15冊・交通局・国交省 / yearbook, transport bureau, ministry
 python scripts/mobility_extract.py
 
-# 防災 / disaster (CSVs downloaded by hand from hinanmap.gsi.go.jp after agreeing to GSI's terms)
+# 地価・区の境界 / land prices and ward boundaries (国土数値情報)
+python scripts/landprice_download.py
+python scripts/landprice_extract.py
+
+# 防災 / disaster (CSVs downloaded by hand from hinanmap.gsi.go.jp after agreeing to GSI's terms; needs the boundaries above)
 python scripts/disaster_extract.py
 
 streamlit run app/dashboard.py
@@ -90,5 +100,6 @@ streamlit run app/dashboard.py
 - 仙台市交通局「乗車人員一覧」 https://www.kotsu.city.sendai.jp/subway/joushajinin/
 - 国土交通省「空港管理状況調書」 https://www.mlit.go.jp/koku/15_bf_000185.html
 - 出典：国土地理院「指定緊急避難場所・指定避難所データ」 https://www.gsi.go.jp/bousaichiri/hinanbasho.html （最新の状況は仙台市に確認のこと / check the City of Sendai for the current situation）
+- 出典：国土交通省「国土数値情報（地価公示データ・行政区域データ）」（CC BY 4.0） https://nlftp.mlit.go.jp/ksj/
 
 いずれも作成者が加工して作成。将来推計は仙台市によるもの。 / All processed by the author; projections are the city's.

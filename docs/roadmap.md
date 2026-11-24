@@ -28,12 +28,17 @@ Create these as GitHub Issues, one Milestone per theme.
 ## Milestone: Disaster preparedness (防災) ✅
 - [x] Shelters and emergency evacuation sites from GSI, with per-hazard designations, on a map
 - [x] Sites per 10,000 residents by ward, hazard × ward grid, tsunami site types
-- [ ] Ward boundaries (e-Stat) to assign the expressway staircases and draw ward areas
+- [x] Ward boundaries (国土数値情報 N03) to assign the expressway staircases and draw ward areas
 - [ ] Compare Sendai with other Miyagi municipalities (04000 files already downloaded)
 - [ ] Tsunami inundation area overlay (宮城県 津波浸水想定)
 
+## Milestone: Land prices (地価) ✅
+- [x] 地価公示 2026 with history to 1983; 2016 and 2006 editions as cross-checks
+- [x] Chained index by use and ward, map, ward comparison with population, distance to station, risers and fallers
+- [ ] 都道府県地価調査 (July survey, L02) for twice-yearly points
+- [ ] Link to subway station ridership (Tōzai line opening, 2015)
+
 ## Milestone: Later
-- [ ] Land prices (国交省 不動産情報ライブラリ API)
 - [ ] Jobs and industry (有効求人倍率, 経済センサス)
 - [ ] Monthly seasonality for tourism (観光庁 宿泊旅行統計調査)
 - [ ] Unit tests for both parsers using the downloaded files as fixtures

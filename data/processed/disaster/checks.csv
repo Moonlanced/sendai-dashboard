@@ -2,5 +2,6 @@ source,check,passed,detail
 04100_1,CSV and GeoJSON hold the same IDs; no duplicates; all inside Sendai,True,231 shelters
 04100_2,CSV and GeoJSON hold the same IDs; no duplicates; all inside Sendai,True,314 sites
 04100_2,sites flagged 'same address as a shelter' are in the shelter list,True,196 of 196
-04100_2,sites with no ward in the address (kept as their own group),explained,"5: 避難階段（仙台１）, 避難階段（仙台５）, 避難階段（仙台４）, 避難階段（仙台３）, 避難階段（仙台２） — tsunami stairs on the 仙台東部道路"
+04100_1/2 × N03,every site whose address names a ward lies inside that ward's boundary,True,540 sites
+04100_2,sites with no ward in the address: ward taken from the boundary polygons,explained,"5: 避難階段（仙台１） → 若林区, 避難階段（仙台５） → 若林区, 避難階段（仙台４） → 若林区, 避難階段（仙台３） → 若林区, 避難階段（仙台２） → 若林区 — tsunami stairs on the 仙台東部道路"
 ward_summary,ward counts add up to all shelters and all sites,True,"231 shelters, 314 sites; population as of 2026-10-01"

@@ -1,0 +1,9 @@
+source,check,passed,detail
+L01-26,2026 price equals the 2026 history column,True,306 points in Sendai
+L01-26/L01-16,'surveyed' flag strings match which years hold a price,True,306 + 297 points
+L01-26 × N03,"every point lies in the ward its code names, and its address names that ward",True,306 of 306
+N03,the five ward polygons don't overlap,True,shared borders only
+L01-26,printed year-on-year % matches the 2025 and 2026 prices (±0.05),True,306 of 306 match
+L01-16 × L01-26,prices published in 2016 equal the 2026 file's history (points matched within 20 m),True,252 of 297 2016 points have a 2026 point within 20 m; 5111 of 5111 year-values equal
+L01-06 × L01-26,prices published in 2006 equal the 2026 file's history (points matched within 20 m),True,211 of 370 2006 points have a 2026 point within 20 m; 195 of 195 year-values equal; 16 matched sites have no 2006 price in the 2026 file (a later point at the same spot)
+index,residential index from 2026 points vs from 2016 points (points dropped since 2016),explained,"largest gap 1.2% in 1985 (112.71 vs 114.06); the 2026 file only holds points still surveyed, so early years rest on fewer, surviving points"

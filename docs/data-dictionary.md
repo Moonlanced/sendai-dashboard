@@ -154,10 +154,51 @@ Source: 国土地理院 「指定緊急避難場所・指定避難所データ�
 |---|---|
 | kind | shelter (指定避難所), shelter_welfare (指定避難所 for people arranged in advance), emergency_site (指定緊急避難場所) |
 | id, name, address | GSI common ID, name and address as registered by the city |
-| ward_jp / ward_en | Taken from the address; 区不明 for the five expressway staircases with no ward in the address |
+| ward_jp / ward_en | Taken from the address; for the five expressway staircases with no ward in the address, from the ward boundaries (all 若林区). Every address ward is checked against the boundaries |
 | lat, lon | Coordinates |
 | flood … volcano | 1 if the emergency site is designated for that disaster type (empty for shelters) |
+| ward_source | address, or boundary (the five expressway staircases, placed with the N03 ward polygons) |
 | notes | 備考 for sites (e.g. 2階以上 = upper floors only) or the intake conditions for welfare shelters |
 
 ## ward_summary.csv
 Per ward: population (latest October 1 推計人口), general and welfare shelters, emergency sites in total and per disaster type, and shelters / sites per 10,000 residents. There's no capacity field anywhere in the source.
+
+---
+
+# Land prices (`data/processed/landprice/`, from `scripts/landprice_extract.py`)
+
+Source: 国土交通省 「国土数値情報 地価公示データ」 (L01) 2026, 2016 and 2006 editions for Miyagi, and 「行政区域データ」 (N03, 1 January 2025). Credit: 出典：国土交通省「国土数値情報」, CC BY 4.0. Downloaded by `scripts/landprice_download.py`. Prices are yen per m² as of 1 January.
+
+## points.csv
+| Field | Meaning |
+|---|---|
+| id | 標準地番号 as printed, e.g. 仙台青葉5-1 (5 = commercial; no digit = residential; 9 = industrial; 3 = land for future housing) |
+| use_code / use_jp / use_en | 000 住宅地, 003 宅地見込地, 005 商業地, 009 工業地 |
+| ward_jp / ward_en | From the municipality code; checked against the address and the ward polygon |
+| address, current_use, area_desc | 所在地, 利用現況, 周辺の土地の利用現況 |
+| station, station_m | Nearest station and the road distance in metres, as in the appraisal |
+| zoning | 用途地域 |
+| price_2026, yoy_pct | 2026 price and the printed year-on-year % |
+| change_5y_pct, change_10y_pct | Change since 2021 / 2016; empty if the point wasn't surveyed then |
+| first_year | First year the point has a price |
+| lat, lon | Location |
+
+## history.csv
+id, year, price: every year 1983–2026 in which a 2026 point was surveyed (from the 2026 file's history columns).
+
+## index.csv
+| Field | Meaning |
+|---|---|
+| group | residential or commercial |
+| ward_jp / ward_en | 仙台市 (city) or a ward (residential only) |
+| index | Chained median index, 2011 = 100: each year, the median ratio of points priced in that year and the year before. Empty where fewer than 10 points compare |
+| points_compared | Points priced in both that year and the year before |
+
+## ward_summary.csv
+Per ward (and 仙台市) and use: points, median 2026 price, median 1-, 5- and 10-year change, and how many points have a 5-year change.
+
+## sendai_wards.geojson
+The five ward polygons from N03, simplified (0.0003°, about 30 m) for the maps. Also used by the disaster page.
+
+## checks.csv
+As for the other themes. Currently 7 passed, 1 explained (the index rebuilt from the 2016 file's points differs by at most 1.2%: the 2026 file only holds surviving points), 0 source errors.

@@ -12,6 +12,8 @@ import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
 
+from geo import add_ward_outlines
+
 DATA = Path(__file__).resolve().parent.parent / "data" / "processed" / "disaster"
 ACCENT, MUTED, WARN, BLUE = "#1f6f5c", "#9aa6a0", "#b4651e", "#3b6ea5"
 HAZ = {  # column -> (ja, en)
@@ -66,8 +68,8 @@ T = {
     },
     "q3": {"ja": "③ 災害の種類 × 区", "en": "③ Disaster type × ward"},
     "q3_note": {
-        "ja": "津波に対応した場所は宮城野区（51）と若林区（21）に集中。62か所は上階・屋上への避難（垂直避難）。高潮・火山に指定された場所はなく、大規模な火事は8か所のみ。",
-        "en": "Tsunami sites are concentrated in Miyagino (51) and Wakabayashi (21); 62 of them mean going to upper floors or a roof (vertical evacuation). No site is designated for storm surge or volcanoes, and only 8 for large fires.",
+        "ja": "津波に対応した場所は宮城野区（51）と若林区（26、東部道路の避難階段5を含む）に集中。62か所は上階・屋上への避難（垂直避難）。高潮・火山に指定された場所はなく、大規模な火事は8か所のみ。",
+        "en": "Tsunami sites are concentrated in Miyagino (51) and Wakabayashi (26, including the 5 expressway staircases); 62 of them mean going to upper floors or a roof (vertical evacuation). No site is designated for storm surge or volcanoes, and only 8 for large fires.",
     },
     "q4": {"ja": "④ 津波避難場所の種類", "en": "④ What the tsunami sites are"},
     "data": {"ja": "データと注意点", "en": "Data and caveats"},
@@ -129,6 +131,7 @@ def render() -> None:
                                              KIND["emergency_site"][li]: WARN},
                          zoom=10, center={"lat": 38.27, "lon": 140.87}, height=560, map_style="open-street-map")
     fig.update_traces(marker=dict(size=9, opacity=0.85))
+    add_ward_outlines(fig)
     fig.update_layout(margin=dict(l=0, r=0, t=0, b=0), legend=dict(title=None, orientation="h", y=-0.05))
     st.plotly_chart(fig, use_container_width=True)
     st.caption(t("q1_note") + f" ({len(m)})")
@@ -180,7 +183,7 @@ def render() -> None:
             "- **No capacity field** exists in this data or on the city's site, so wards are compared by number of sites, not places.\n"
             "- **Per-resident comparisons are coarse for tsunami:** tsunami risk is concentrated near the coast, not spread across a ward.\n"
             "- **Welfare shelters** (36) are only for people arranged in advance (older or disabled residents); they're counted separately.\n"
-            "- **Five tsunami staircases** on the 仙台東部道路 have no ward in their address and are kept as their own group.\n"
+            "- **Wards** come from each address; the five tsunami staircases on the 仙台東部道路 have no ward in their address, so their ward (all 若林区) comes from the ward boundaries (国土数値情報 N03). Every other site's address ward matches the boundary.\n"
             "- **Checks:** CSV and GeoJSON versions hold identical IDs; no duplicates; every site lies inside Sendai; every site flagged as sharing a "
             "shelter's address is in the shelter list (196 of 196); ward counts add up to the totals."
             if en else
@@ -188,6 +191,6 @@ def render() -> None:
             "- **収容人数**はこのデータにも市のサイトにも含まれないため、区の比較は数のみ。\n"
             "- **津波は区単位の人口比較になじまない：** 津波の危険は沿岸部に集中しており、区全体に均等ではない。\n"
             "- **福祉避難所**（36か所）は事前に調整した高齢者・障害者等が対象のため、別に集計。\n"
-            "- **仙台東部道路の避難階段5か所**は住所に区名がないため、独立したグループとして扱う。\n"
+            "- **区**は住所から判定。住所に区名がない仙台東部道路の避難階段5か所は、区の境界データ（国土数値情報 N03）から判定（すべて若林区）。他の全地点も住所の区と境界が一致。\n"
             "- **検証：** CSVとGeoJSONのID一致、重複なし、全地点が仙台市内、指定避難所と住所同一とされた196か所がすべて避難所一覧に存在、区別の合計＝総数。"
         )
